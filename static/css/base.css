@@ -3,11 +3,11 @@ html {
 }
 
 body {
-    background: url('/media/pexels-mikhail-nilov-7815116.jpg') no-repeat center center fixed;
+    background: url('/media/aromatherapy-treatment-with-candles.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
-    font-family: 'Lato';
+    font-family: 'Dancing Script', cursive;
 }
 
 /* from Bulma */
@@ -19,6 +19,7 @@ body {
     width: 1.5rem;
 }
 
+/* Logo */
 .logo-font {
     text-transform: uppercase;
 }
@@ -27,6 +28,8 @@ body {
     width: fit-content;
 }
 
+
+/* Buttons */
 .shop-now-button {
     background: black;
     color: white;
@@ -48,6 +51,12 @@ body {
     color: white;
 }
 
+.shop-now-container {
+    padding-top: 3em;
+}
+
+
+/* Text */
 .text-black {
     color: #000 !important;
 }
@@ -56,6 +65,15 @@ body {
     border: 1px solid black !important;
 }
 
+.index-text {
+    background-color: white;
+    opacity: 0.6;
+}
+
+.index-text-container {
+    padding-left: 5em;
+    padding-right: 5em;
+}
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -77,5 +95,17 @@ body {
 
     .header-container {
         padding-top: 164px;
+    }
+
+}
+
+/* small screens  */    
+@media only screen and (max-width: 600px) {
+    .index-text {
+        font-size: 2.5em; 
+    }
+
+    .shop-now-button {
+        min-width: 215px;
     }
 }
