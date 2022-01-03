@@ -10,6 +10,24 @@ body {
     font-family: 'Dancing Script', cursive;
 }
 
+/* Navbar */
+
+#topnav {
+    background-color: rosybrown;
+}
+
+#main-nav {
+    background-color: rgb(202, 165, 165);
+}
+
+.navbar-body {
+    background-color: rgb(202, 165, 165);
+}
+
+.navbar-mini-menu {
+    background-color: rgb(202, 165, 165);
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -68,12 +86,14 @@ body {
 .index-text {
     background-color: white;
     opacity: 0.6;
+    margin-top: 24vh;
 }
 
 .index-text-container {
     padding-left: 5em;
     padding-right: 5em;
 }
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -102,10 +122,15 @@ body {
 /* small screens  */    
 @media only screen and (max-width: 600px) {
     .index-text {
-        font-size: 2.5em; 
+        font-size: 1.7em;
+        margin-top: 40vh;
     }
 
     .shop-now-button {
         min-width: 215px;
+    }
+
+    .logo-font {
+        font-size: 1rem;
     }
 }
