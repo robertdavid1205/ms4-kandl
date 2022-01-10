@@ -14,7 +14,7 @@
 
         {% block corecss %}
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="{% static 'css/base.css' %}">
         {% endblock %}
 
@@ -64,16 +64,16 @@
                                     <p class="my-0">My Account</p>
                                 </div>
                             </a>
-                            <div class="dropdown-menu border-0" aria-labelledby="user-options">
+                            <div class="dropdown-menu border-0 my-account-area" aria-labelledby="user-options">
                                 {% if request.user.is_authenticated %}
                                     {% if request.user.is_superuser %}
-                                        <a href="" class="dropdown-item">Product Management</a>
+                                        <a href="" class="dropdown-item text-black">Product Management</a>
                                     {% endif %}
-                                    <a href="" class="dropdown-item">My Profile</a>
-                                    <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+                                    <a href="" class="dropdown-item text-black">My Profile</a>
+                                    <a href="{% url 'account_logout' %}" class="dropdown-item text-black">Logout</a>
                                 {% else %}
-                                    <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
-                                    <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+                                    <a href="{% url 'account_signup' %}" class="dropdown-item text-black">Register</a>
+                                    <a href="{% url 'account_login' %}" class="dropdown-item text-black">Login</a>
                                 {% endif %}
                             </div>
                         </li>
