@@ -3,29 +3,33 @@ html {
 }
 
 body {
-    background: url('/media/aromatherapy-treatment-with-candles.jpg') no-repeat center center fixed;
+    background: url('/media/kandl-background.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Playfair Display', serif;
 }
 
 /* Navbar */
 
 #topnav {
-    background-color: rosybrown;
+    background-color: #AF16FA
 }
 
 #main-nav {
-    background-color: rgb(202, 165, 165);
+    background-color: #AF16FA
 }
 
 .navbar-body {
-    background-color: rgb(202, 165, 165);
+    background-color: #E68AC2
 }
 
 .navbar-mini-menu {
-    background-color: rgb(202, 165, 165);
+    background-color: #AF16FA
+}
+
+#delivery-banner {
+    background-color: #FF1C00
 }
 
 /* from Bulma */
