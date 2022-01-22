@@ -166,4 +166,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 # Trusted Origins
-CSRF_TRUSTED_ORIGINS = ['https://8000-beige-harrier-bts6v7wk.ws-eu25.gitpod.io']
+CSRF_TRUSTED_ORIGINS = ['https://8000-beige-harrier-bts6v7wk.ws-eu27.gitpod.io']
