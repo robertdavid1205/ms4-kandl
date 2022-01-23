@@ -17,29 +17,29 @@
                 Candles
             </a>
             <div class="dropdown-menu border-0 navbar-mini-menu" aria-labelledby="candles-link">
-                <a href="" class="dropdown-item">Soy</a>
-                <a href="" class="dropdown-item">Beeswax</a>
+                <a href="{% url 'products' %}?category=candles" class="dropdown-item">Soy</a>
+                <a href="{% url 'products' %}?category=candles" class="dropdown-item">Beeswax</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-white mr-5" href="#" id="bath-bombs-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-white mr-5" href="{% url 'products' %}?category=bath bombs" id="bath-bombs-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Bath Bombs
             </a>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-white" href="#" id="soaps-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-white" href="{% url 'products' %}?category=soaps" id="soaps-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Soaps
             </a>
             <div class="dropdown-menu border-0 navbar-mini-menu" aria-labelledby="soaps-link">
-                <a href="" class="dropdown-item">Solid</a>
-                <a href="" class="dropdown-item">Liquid</a>
+                <a href="{% url 'products' %}?category=soaps" class="dropdown-item">Solid</a>
+                <a href="{% url 'products' %}?category=liquid_soaps" class="dropdown-item">Liquid</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-white" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-white" href="{% url 'products' %}?category=special offers" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Offers
             </a>
             <div class="dropdown-menu border-0 navbar-mini-menu" aria-labelledby="specials-link">
