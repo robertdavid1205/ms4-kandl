@@ -14,6 +14,8 @@ def all_products(request):
     products = Product.objects.all()
     query = None
     categories = None
+    sort = None
+    direction = None
 
     if request.GET:
         if 'sort' in request.GET:
@@ -44,6 +46,7 @@ def all_products(request):
             queries = Q(name__icontains=query) | Q(description__icontains=query)
             products = products.filter(queries)
 
+    
     current_sorting = f'{sort}_{direction}'
 
     context = {
