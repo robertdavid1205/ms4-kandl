@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('/media/kandl-background.jpg') no-repeat center center fixed;
+    background: url('https://kandl-ms4.s3.eu-west-1.amazonaws.com/media/kandl_background.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
