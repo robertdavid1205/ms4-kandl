@@ -1,0 +1,230 @@
+[{
+    "model": "products.category",
+    "pk": 1,
+    "fields": {
+        "name": "candles",
+        "friendly_name": "candles"
+    }
+}, {
+    "model": "products.category",
+    "pk": 2,
+    "fields": {
+        "name": "soaps",
+        "friendly_name": "soaps"
+    }
+}, {
+    "model": "products.category",
+    "pk": 3,
+    "fields": {
+        "name": "liquid_soaps",
+        "friendly_name": "liquid soaps"
+    }
+}, {
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "category": 1,
+        "sku": "c001",
+        "name": "Candle 1",
+        "description": "Experience the warm glow of the coast with nuanced scents of sun-kissed blossoms, creamy coconut, and salty ocean air.",
+        "price": "30.00",
+        "rating": "4.90",
+        "image_url": null,
+        "image": "candle1.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+        "category": 1,
+        "sku": "c002",
+        "name": "Candle 2",
+        "description": "A peppery blend of earthy spices surrounded by sweet amber and creamy sandalwood aromas.",
+        "price": "30.00",
+        "rating": "4.90",
+        "image_url": null,
+        "image": "candle2.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "category": 1,
+        "sku": "c003",
+        "name": "Candle 3",
+        "description": "This fragrance balances the rich scents of amber, vetiver and musk to perfectly capture the essence of a perfect evening by a warm fire.",
+        "price": "30.00",
+        "rating": "4.90",
+        "image_url": null,
+        "image": "candle3.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+        "category": 1,
+        "sku": "c004",
+        "name": "Candle 4",
+        "description": "The fresh scent of crisp, clean linen drying in a warm summer breeze.",
+        "price": "30.00",
+        "rating": "4.80",
+        "image_url": null,
+        "image": "candle4.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+        "category": 1,
+        "sku": "c005",
+        "name": "Candle 5",
+        "description": "A sun-drenched fragrance combination of melon, cucumber and crystalline pink quartz, traced with violet leaf and lemon blossom.",
+        "price": "30.00",
+        "rating": "4.90",
+        "image_url": null,
+        "image": "candle5.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+        "category": 1,
+        "sku": "c006",
+        "name": "Candle 6",
+        "description": "Green, floral scents are complemented by subtle hints of sweet lemon and grapefruit for a refreshing, herbal experience.",
+        "price": "27.00",
+        "rating": "4.70",
+        "image_url": null,
+        "image": "candle6.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+        "category": 2,
+        "sku": "s001",
+        "name": "Soap 1",
+        "description": "Treat yourself to a festive foam filled wash this Christmas, with this luxurious soap full of the uplifting scents of ginger and a blend of merry making Frankincense and Myrrh oils.",
+        "price": "22.00",
+        "rating": "4.50",
+        "image_url": null,
+        "image": "soap1.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+        "category": 2,
+        "sku": "s002",
+        "name": "Soap 2",
+        "description": "Jingle berry, jingle berry, jingle berry rock. What a bright time, it’s the right time, to wash the night away! With pure frankincense and myrrh essential oils to get your festive spirit on!",
+        "price": "22.00",
+        "rating": "4.70",
+        "image_url": null,
+        "image": "soap2.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+        "category": 2,
+        "sku": "s003",
+        "name": "Soap 3",
+        "description": "The tale of two superstars; strawberry and banana, whisked together in a milkshake inspired soap cake and combined with the power of pure ylang ylang and rose essential oils to make you feel like a VIP!",
+        "price": "22.00",
+        "rating": "4.90",
+        "image_url": null,
+        "image": "soap3.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 10,
+    "fields": {
+        "category": 2,
+        "sku": "s004",
+        "name": "Soap 4",
+        "description": "A softening blend of body smoothing Raspberry soap and luxurious Bergamot and Mandarin essential oils to leave you fruity scented and moisturised.",
+        "price": "22.00",
+        "rating": "4.60",
+        "image_url": null,
+        "image": "soap4.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 11,
+    "fields": {
+        "category": 2,
+        "sku": "s005",
+        "name": "Soap 5",
+        "description": "Arriba Arriba! One hit of our Pina Piñata, will send pure sweet orange and grapefruit essential oils flying to put you in a party mood!",
+        "price": "22.00",
+        "rating": "5.00",
+        "image_url": null,
+        "image": "soap5.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 12,
+    "fields": {
+        "category": 2,
+        "sku": "s006",
+        "name": "Soap 6",
+        "description": "A softening blend of body smoothing Oceanic soap and luxurious Eucalyptus and Tea Tree essential oils to leave you feeling fresh and moisturised.",
+        "price": "22.00",
+        "rating": "4.90",
+        "image_url": null,
+        "image": "soap6.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 13,
+    "fields": {
+        "category": 3,
+        "sku": "ls001",
+        "name": "Liquid Soap 1",
+        "description": "Lay back, relax and embrace the zen of these bear necessities! Let the floral and juicy berried fragrances pull you into a bear hug as the pure essential oils splish and splash your troubles away.",
+        "price": "20.00",
+        "rating": "5.00",
+        "image_url": null,
+        "image": "liquid-soap1.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 14,
+    "fields": {
+        "category": 3,
+        "sku": "ls002",
+        "name": "Liquid Soap 2",
+        "description": "Pucker up and enjoy sexy scents and softly seductive pink waters. Let the essential oils kiss your skin as you sink into the romance.",
+        "price": "20.00",
+        "rating": "5.00",
+        "image_url": null,
+        "image": "liquid-soap2.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 15,
+    "fields": {
+        "category": 3,
+        "sku": "ls003",
+        "name": "Liquid Soap 3",
+        "description": "Blast into outer space amongst fruity, fun and warming scents as your orbit around pure essential oils and layers of fluffy blue and green waters.",
+        "price": "20.00",
+        "rating": "4.80",
+        "image_url": null,
+        "image": "liquid-soap3.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 16,
+    "fields": {
+        "category": 3,
+        "sku": "ls004",
+        "name": "Liquid Soap 4",
+        "description": "Break up with stress and get to know our calming soap which contains essential oils designed to leave you feeling relaxed and in a lull.",
+        "price": "15.00",
+        "rating": "4.60",
+        "image_url": null,
+        "image": "liquid-soap4.jpg"
+    }
+}]
