@@ -10,4 +10,4 @@ Kandl is an ecommerce website that allows users to purchase hand made natural ca
 
 **View the live site [here](https://kandl-ms4.herokuapp.com/)**
 <br><br>
-![Responsive site example]()
+![Responsive site example](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/responsive-demo.png)
