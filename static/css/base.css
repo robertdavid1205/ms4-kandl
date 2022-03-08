@@ -13,23 +13,25 @@ body {
 /* Navbar */
 
 #topnav {
-    background-color: #262626
+    background-color: #262626;
 }
 
 #main-nav {
-    background-color: #262626
+    background-color: #262626;
 }
 
 .navbar-body {
-    background-color: #262626
+    background-color: #262626;
 }
 
 .navbar-mini-menu {
-    background-color: #262626
+    background-color: #262626;
 }
 
 #delivery-banner {
-    background-color: #000000
+    background-color: #000000;
+    background: #232323;
+    box-shadow: 0 8px 8px -4px lightblue;
 }
 
 .my-account-area {
