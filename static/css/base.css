@@ -13,19 +13,19 @@ body {
 /* Navbar */
 
 #topnav {
-    background-color: #000000
+    background-color: #262626
 }
 
 #main-nav {
-    background-color: #000000
+    background-color: #262626
 }
 
 .navbar-body {
-    background-color: #e8b923
+    background-color: #262626
 }
 
 .navbar-mini-menu {
-    background-color: #000000
+    background-color: #262626
 }
 
 #delivery-banner {
@@ -33,7 +33,7 @@ body {
 }
 
 .my-account-area {
-    background-color: black;
+    background-color: #262626;
 }
 
 /* from Bulma */
@@ -165,7 +165,7 @@ button:active {
 .index-text {
     background-color: #000000;
     opacity: 0.8;
-    margin-top: 24vh;
+    margin-top: 16vh;
 }
 
 .index-text-container {
@@ -376,7 +376,7 @@ input[name='q']::placeholder {
 @media only screen and (max-width: 600px) {
     .index-text {
         font-size: 1.7em;
-        margin-top: 40vh;
+        margin-top: 14vh;
     }
 
     .shop-now-button {
@@ -412,6 +412,11 @@ input[name='q']::placeholder {
     body {
         height: calc(100vh - 116px);
     }
+
+    .display-3 {
+        font-size: 2.5rem;
+        font-weight: 300;
+        line-height: 1.1;
 
     .display-4.logo-font.text-black {
         font-size: 2rem;

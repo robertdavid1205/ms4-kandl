@@ -6,33 +6,33 @@
             </a>
         </li>
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-white mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font text-black font-weight-bold nav-link text-white mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All Products
             </a>
             <div class="dropdown-menu border-0 navbar-mini-menu" aria-labelledby="all-products-link">
-                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
-                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
-                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="text-black dropdown-item">By Price</a>
+                <a href="{% url 'products' %}?sort=rating&direction=desc" class="text-black dropdown-item ">By Rating</a>
+                <a href="{% url 'products' %}?sort=category&direction=asc" class="text-black dropdown-item ">By Category</a>
+                <a href="{% url 'products' %}" class="text-black dropdown-item">All Products</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-white mr-5" href="#" id="candles-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font text-black font-weight-bold nav-link text-white mr-5" href="#" id="candles-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Candles
             </a>
             <div class="dropdown-menu border-0 navbar-mini-menu" aria-labelledby="candles-link">
-                <a href="{% url 'products' %}?category=candles" class="dropdown-item">Soy</a>
-                <a href="{% url 'products' %}?category=candles" class="dropdown-item">Beeswax</a>
+                <a href="{% url 'products' %}?category=candles" class="text-black dropdown-item">Soy</a>
+                <a href="{% url 'products' %}?category=candles" class="text-black dropdown-item">Beeswax</a>
             </div>
         </li>
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-white" href="{% url 'products' %}?category=soaps" id="soaps-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font text-black font-weight-bold nav-link text-white" href="{% url 'products' %}?category=soaps" id="soaps-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Soaps
             </a>
             <div class="dropdown-menu border-0 navbar-mini-menu" aria-labelledby="soaps-link">
-                <a href="{% url 'products' %}?category=soaps" class="dropdown-item">Solid</a>
-                <a href="{% url 'products' %}?category=liquid_soaps" class="dropdown-item">Liquid</a>
+                <a href="{% url 'products' %}?category=soaps" class="text-black dropdown-item">Solid</a>
+                <a href="{% url 'products' %}?category=liquid_soaps" class="text-black dropdown-item">Liquid</a>
             </div>
         </li>
     </ul>
