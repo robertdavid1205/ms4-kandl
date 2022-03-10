@@ -1,0 +1,127 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+    <head>
+        {% block meta %}
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {% endblock %}
+
+        {% block extra_meta %}
+        {% endblock %}
+
+        {% block corecss %}
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{% static 'css/base.css' %}">
+        {% endblock %}
+
+        {% block extra_css %}
+        {% endblock %}
+
+        {% block corejs %}
+        <script src="https://kit.fontawesome.com/a46813e0f2.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <!-- Stripe -->
+        <script src="https://js.stripe.com/v3/"></script>
+        {% endblock %}
+
+        {% block extra_js %}
+        {% endblock %}
+
+        <title>Kandl {% block extra_title %}{% endblock %} </title>
+    </head>
+    <body>
+        <header class="container-fluid fixed-top">
+        </header>
+        {% if messages %}
+        <div class="message-container">
+            {% for message in messages %}
+                {% with message.level as level %}
+                    {% if level == 40 %}
+                        {% include 'includes/toasts/toast_error.html' %}
+                    {% elif level == 30 %}
+                        {% include 'includes/toasts/toast_warning.html' %}
+                    {% elif level == 25 %}
+                        {% include 'includes/toasts/toast_success.html' %}
+                    {% else %}
+                        {% include 'includes/toasts/toast_info.html' %}
+                    {% endif %}
+                {% endwith %}
+            {% endfor %}
+        </div>
+        {% endif %}
+
+
+
+        {% block page_header %}
+        {% endblock %}
+
+        {% block content %}
+        {% endblock %}
+        <div class="above-footer"></div>
+        <footer class="bg-dark fixed-bottom text-center text-white">
+            <!-- Grid container -->
+            <div class="container p-0 pb-0">
+              <!-- Section: Social media -->
+              <section class="mb-0">
+                <!-- Facebook -->
+                <a
+                  class="btn btn-primary btn-floating m-1"
+                  style="background-color: #3b5998;"
+                  href="https://www.facebook.com/"
+                  role="button"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+          
+                <!-- Twitter -->
+                <a
+                  class="btn btn-primary btn-floating m-1"
+                  style="background-color: #55acee;"
+                  href="https://twitter.com/?lang=en"
+                  role="button"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+          
+                <!-- Instagram -->
+                <a
+                  class="btn btn-primary btn-floating m-1"
+                  style="background-color: #ac2bac;"
+                  href="https://www.instagram.com/?hl=en"
+                  role="button"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+          
+                <!-- Linkedin -->
+                <a
+                  class="btn btn-primary btn-floating m-1"
+                  style="background-color: #0082ca;"
+                  href="https://www.linkedin.com/"
+                  role="button"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </section>
+              <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+          
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+              © 2022 Copyright:
+              <a class="text-white">Robert David</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+
+        {% block postloadjs %}
+        <script type="text/javascript">
+            $('.toast').toast('show');
+        </script>
+        {% endblock %}
+
+    </body>
+</html>
