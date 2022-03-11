@@ -95,6 +95,56 @@ Kandl is an ecommerce website that allows users to purchase hand made natural ca
 
 
 
+# Project Overview
+- This project is a website made for Code Institute - Diploma in Software Development (Full stack) course - milestone project 4.
+- The website is deployed using Heroku pages at the following url: [Kandl](https://kandl-ms4.herokuapp.com/)
+- The repository that contains the website source code: [Code Repository](https://github.com/robertdavid1205/ms4-kandl)
+- The website was built with a responsive look and feel for desktop, tablet and mobile devices.
+
+
+# UX
+## Strategy
+### Primary Goal
+The primary goal of the website from site owners perspective is:
+- To add, edit and delete products on the website, with the relevant information (price, description, rating, image, sizes and category) 
+- To allow a user make a purchase of the products on the website
+- To categorise sale items on the website
+
+The primary goal of the website from site users perspective is:
+- View a list of products on the website
+- To register for an account on the website and receive an email after successful registration
+- To login or logout from the website
+- Search for a product by name or description and view the search results
+- Have a personalised user profile with my delivery, payment information and order history
+- View an individual product detail(price, description, rating, comments, image, sizes and category)
+- To add an item to a shopping bag, and select the quantity and size if applicable
+- Complete a purchase of items in a shopping bag
+- To sort the list of available products by rating, price and category
+
+
+## Structure
+### Website pages
+- I have structured the website into over 20 pages, each with clear, concise structure, information and purpose. I use the Bootstrap grid system throughout, which gave a consistent structure and responsive design "out of the box"
+- Below are the main page's/features functionality wise, there are some others for password reset/verification etc. that are described in the user story section 
+- All pages have a common look and feel and a common header/footer. On a tablet/mobile the look and feel is slightly different with a burger menu
+- These pages are described in more detail in the user stories section
+
+Page            |Description
+:-------------         |:------------- 
+Home     |The homepage consists of a background image and text about what we sell, and a button.    
+Products           | The products page displays the products(image, price, rating) in a paginated way.  
+Product Detail           | The product detail page displays the product image, description, price, add to bag buttons.   
+Product Management(Add Product)     | A product can be added to the website.    
+Product Management(Edit Product)     | A product can be edited to the website.     
+Product Management(Delete Product)     | A product can be deleted from the website.    
+My Profile             |The users profile(delivery information) and previous orders is displayed.       
+Log out               | A logout button is provided under the My Account link to logout.
+Register               | A user can register an account on the site with a valid email address.
+Log in               | A user can login with a valid username and password.
+Bag | A user can add products to a shopping bag which contains each item in the order and an overall price/delivery if applicable.   
+Checkout | A user can enter their delivery details and credit card information to checkout an order.   
+Checkout success | Once an order is successful, the user can view the checkout success.
+
 ### Wireframes 
 ---
 1. Home
