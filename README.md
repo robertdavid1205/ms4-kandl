@@ -207,6 +207,86 @@ Note: Environment variable values are not exposed in the source code, they are s
 - The model contains the following fields: name, friendly_name
 
 
+## Scope
+### User Stories Customer
+The user stories for the regular user eg: "shopper user" (a potential or existing customer) are described as follows: 
+- User Story 1.1: As an admin/regular user the navigation bar is displayed on all pages with a search box, My account, and shopping bag icons on a desktop device
+- User Story 1.2: As an admin/regular user the navigation bar is displayed on all pages with a search box, My account, and shopping bag icons on a mobile/tablet device
+- User Story 1.3: As a regular user not logged in, I see a Register/Login link under the My Account dropdown
+- User Story 1.4: As a regular logged in, I am brought to the Favourites page if I click on the Favourites icon
+- User Story 1.5: As a regular user logged in/not logged in, I am brought to my shopping bag if I click on the Bag icon
+- User Story 1.6: As a regular/admin user logged in, I see a "My Profile"/Logout under the My Account dropdown
+- User Story 1.7: As a regular/admin user logged in, if I click on the My Profile under My Account I am brought to the My Profile page
+- User Story 1.8: As a regular/admin user I can view the Home link in the header, and clicking it will bring the user to the homepage
+- User Story 1.9: As a regular/admin user I can click on the "All Products" filter, click By Price, and will be brought to the Products page, with products price low to high displayed
+- User Story 1.10: As a regular/admin user I can click on the "All Products" filter, click By Rating, and will be brought to the Products page, with products rating high to low displayed
+- User Story 1.11: As a regular/admin user I can click on the "All Products" filter, click By Category, and will be brought to the Products page, with products category a-z displayed
+- User Story 1.12: As a regular/admin user I can click on the "Candles" filter, and filter by soy or beewax
+- User Story 1.13: As a regular/admin user I can click on the "Soaps" filter, and filter by solid or liquid
+- User Story 1.14: As a regular/admin user if I encounter an error on the site, I will be navigated to the 404 error page
+- User Story 2.1: As an admin/regular user four text messages are displayed with icons regarding delivery, packaging, dispatch and knowledge
+- User Story 2.2: As a regular user the footer is displayed with a logo, product links(Candles,Soaps), website links(About, All products)
+- User Story 3.1: As a regular user I can register on the website by providing an email address, email address(confirmation), username, password, password confirmation
+- User Story 3.1: As a regular user I will receive an email to verify my account after registering
+- User Story 3.1: As a regular user I can log in to my account once I click on the verification link in the email I receive regarding my registration
+- User Story 4.1: As an admin/regular user I can log in to the website using my username or email address and password. Both fields are mandatory. Once correct, I will be navigated to the homepage and a message displayed
+- User Story 5.1: As a regular user I can view the products page with product count and with each product image, title, category, price
+- User Story 5.2: As a regular user I can sort the products by Price(high to low, low to high), Rating(high to low, low to high), Name(A-Z, Z-A), Category(A-Z, Z-A)
+- User Story 5.3: As a regular user if I click on a product I will be navigated to the product detail page
+- User Story 5.4: As a regular user I can view the product image, description, colour, code, rating, category
+- User Story 5.5: As a regular user I can click on the Keep Shopping button on the product detail page, and it will navigate the user to the products page
+- User Story 5.6: As a regular user I can set the product quantity for a product (one plus/minus)
+- User Story 9.1: As a regular user I can view my order history(Order Number, Date, Items and Order Total)
+- User Story 9.2: As a regular user I can click on an order number to view the order information (Order number, Order date/time, Full Name, Street Address 1, Street Address 2, Town or City, County, State or Locality, Postal Code and Country, Phone Number, Order Total, Deliver, Grand Total)
+- User Story 10.1: As a regular user I can click on a product, set the size(if applicable) and quantity, click Add to Bag and the product will be added to my bag, a message displayed, and a toast will be displayed with the bag contents
+- User Story 10.2: As a regular user I can click on the bag icon, I will be brought to my bag. If there are no items in the bag, a message will be displayed
+- User Story 10.3: As a regular user I can click on the bag icon, I will be brought to my bag. If there are items, the product image, detail, price, quantity, subtotal will be displayed for the item. The bag total, delivery(if applicable), grand total would be displayed
+- User Story 10.4: As a regular user I can update the quantity or remove an item from my shopping bag
+- User Story 10.5: As a regular user I can click on the Secure Checkout button on the bag page or toast message, and I will be brought to the Checkout page
+- User Story 10.6: As a regular user on the checkout page I can set my details(Full Name, email address, both mandatory) and Delivery Information(Phone Number(mandatory), Street Address 1(mandatory), Street Address 2, Town or City(mandatory, County, State or Locality, Postal Code and Country(mandatory), which is populated from my profile if filled in
+- User Story 10.7: As a regular user on the checkout page if I click "Save this delivery information to my profile", the details entered will be saved on the users profile
+- User Story 10.8: As a regular user on the checkout page if I click the Complete Order button, and the transaction is not successful, a message will be displayed
+- User Story 10.9: As a regular user on the checkout page if I click the Complete Order button, and the transaction is successful, the user will be navigated to a checkout success page, and an email is sent to the user
+- User Story 10.10: As a regular user not logged in, I can add items to my bag and make a purchase
+
+### User Stories Website Owner
+The user stories for the website owner(admin/administrator user) are described as follows: 
+There is a lot of overlap between the two user types, the admin user has more administrative rights throughout but their roles and responsibilities
+are defined
+- User Story 1.1: As an admin/regular user the navigation bar is displayed with a logo on all pages with a search box, My account and shopping bag icons on a desktop device
+- User Story 1.2: As an admin/regular user the navigation bar is displayed on all pages with a search box, My account and shopping bag icons on a mobile/tablet device
+- User Story 1.8: As an admin user logged in, I see a Product Management/News Item Management/My Profile/Logout under the My Account dropdown
+- User Story 1.9: As a regular/admin user logged in, if I click on the My Profile under My Account I am brought to the My Profile page
+- User Story 1.10: As a regular/admin user logged in, if I click on the My Profile under My Account I am brought to the Logout page. If I click Logout I am Logged out. If I click cancel I am brought back to the homepage
+- User Story 1.11: As an admin user logged in, if I click on Product Management under My Account I am brought to the Product Management(Add Product) page
+- User Story 1.12: As an admin user logged in, if I click on News Item Management under My Account I am brought to the News Item Management page
+- User Story 1.13: As a regular/admin user I can view the Home link in the header, and clicking it will bring the user to the homepage
+- User Story 1.15: As a regular/admin user I can click on the "All Products" filter, click By Price, and will be brought to the Products page, with products price low to high displayed
+- User Story 1.16: As a regular/admin user I can click on the "All Products" filter, click By Rating, and will be brought to the Products page, with products rating high to low displayed
+- User Story 1.17: As a regular/admin user I can click on the "All Products" filter, click By Category, and will be brought to the Products page, with products category a-z displayed
+- User Story 1.18: As a regular/admin user I can click on the "Candles" filter, and filter by soy or beewax
+- User Story 1.19: As a regular/admin user I can click on the "Soaps" filter, and filter by solid or liquid
+- User Story 1.20: As a regular/admin user if I encounter an error on the site, I will be navigated to the 404 error page
+- User Story 2.1: As an admin/regular user four text messages are displayed with icons regarding delivery, packaging, dispatch and knowledge
+- User Story 2.2: As an admin user logged in the footer is displayed with a logo, product links(Candles and Soaps), website links(Product Management, About)
+- User Story 3.1: As an admin/regular user I can log in to the website using my username or email address and password. Both fields are mandatory. Once correct, I will be navigated to the homepage and a message displayed
+- User Story 3.2: As an admin/regular user I can request a new password if I forget my current password. I will receive an email to reset my password. Once I reset I can log in
+- User Story 4.1: As an admin user I can view the Add product page by clicking on the Product Management link.
+- User Story 4.2: As an admin user I can view the Edit product page by clicking on the Edit button on the product. 
+- User Story 4.3: As an admin user I can click on a product, and I am navigated to the product detail page. I can edit or delete the product by clicking on the Edit or Delete links on the page
+- User Story 5.1: As an admin user I can add a product by clicking on the Product Management link in My Account. I must enter a name, category, price, colour, code, description, has Sizes(Unknown, Yes, No), Rating, Image url, upload an image and click the 
+Add Product button. Clicking cancel navigates the user to the product page.
+- User Story 5.2: As an admin user I can edit a product by clicking on the Edit button on the Products page for the product. I can update the name, category, price, colour, code, description, feature (1-4), has Sizes(Unknown, Yes, No), Rating, Pre-sale price, Image url, update an image and click the 
+Edit Product button. Clicking cancel navigates the user to the product page
+- User Story 5.3: As an admin user I can delete a product by clicking on the Delete button on the product. A modal will appearing asking to confirm, and a message displayed once I confirm.
+- User Story 6.1: As an admin user I can view users orders in the django admin page and can view order number, date, full name, order total, delivery cost, grand total
+- User Story 6.2: As an admin user I can view users orders in the django admin page and can search by order number, full name and filter by order number, full name and order date
+- User Story 6.3: As an admin user I can view products in the django admin page and can view a products code, name, category, has sizes, price, presale price, rating, image, image url
+- User Story 6.4: As an admin user I can view products in the django admin page and can view search and filter by code, category, name and price
+- User Story 6.5: As an admin user I can view users in the django admin page and can view their username, email address, first name, last name
+- User Story 6.6: As an admin user I can view categories in the django admin page and can view a category name and friendly name
+
+
 ### Wireframes 
 ---
 1. Home
