@@ -334,3 +334,34 @@ There are 4 colours in the color palette
 - Gold and grey for text
 
 I believe the colours complement each other, and I choose those colours to give the website the feel of luxury.
+
+
+### Typography
+The Cormorant Garamond font is the main font used throughout the whole website with Sans Serif as the fallback in case the Cormorant Garamond cannot be imported into the website correctly. This font is from the Google fonts library.
+![Font](/readme-images/font.png)
+
+
+# Features
+The website has 13 distinct features, and they are described below
+What is important to detail is what pages are accessible by the three types of users
+1. A customer user not logged into the site
+2. A customer user logged into the site
+3. An admin user
+The navigation buttons update depending on whether a user is logged in or not, and whether that user is the admin:
+
+ Nav Link              |Not logged in  |Logged in as regular user|Logged in as admin
+:-------------         |:------------- |:----------------|:------------- |
+Home     |&#9989;        |&#9989;          |&#9989; |
+Products           |&#9989;        |&#9989;          |&#9989; |
+Product Detail           |&#9989;        |&#9989;          |&#9989; |
+Product Management(Add Product)     |&#10060;       |&#10060;         |&#9989; |
+Product Management(Edit Product)     |&#10060;       |&#10060;         |&#9989; |
+Product Management(Delete Product)     |&#10060;       |&#10060;         |&#9989; |
+My Profile             |&#10060;       |&#9989;          |&#9989; |
+Order History         |&#10060;       |&#9989;          |&#9989; |
+Log out               |&#10060;       |&#9989;          |&#9989; |
+Register               |&#9989;        |&#10060;         |&#10060; |
+Log in               |&#9989;        |&#10060;         |&#10060; |
+Bag |&#9989;        |&#9989;          |&#9989; |
+Checkout |&#9989;        |&#9989;          |&#9989; |
+Checkout success |&#9989;        |&#9989;          |&#9989; |
