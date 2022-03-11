@@ -166,7 +166,6 @@ There are also:
 - Requirements.txt: Containing the python libraries installed
 Note: Environment variable values are not exposed in the source code, they are stored locally in env.py that is not checked in(and listed in .gitignore, and on Heroku in app settings
 
-
 ### Database
 - The website is a data-centric one with html, javascript, css used with the bootstrap(version 4) framework as a frontend
 - The backend consists of Python, with the Django framework and a database of Postgres for the deployed Heroku version.
@@ -287,6 +286,7 @@ Edit Product button. Clicking cancel navigates the user to the product page
 - User Story 6.6: As an admin user I can view categories in the django admin page and can view a category name and friendly name
 
 
+## Skeleton
 ### Wireframes 
 ---
 1. Home
@@ -323,3 +323,14 @@ Edit Product button. Clicking cancel navigates the user to the product page
 * [mobile](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/wireframes/login_mobile.png)
 * [tablet](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/wireframes/login_tablet.png)
 * [desktop](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/wireframes/login_desktop.png)
+
+
+## Surface
+### Color Palette
+I have gone for a simple and minimal design for the website, with predominately black, grey, white, and gold colours
+There are 4 colours in the color palette
+- Black and grey colour for the nav and footer on the website
+- White for background
+- Gold and grey for text
+
+I believe the colours complement each other, and I choose those colours to give the website the feel of luxury.
