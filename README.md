@@ -53,30 +53,18 @@ Kandl is an ecommerce website that allows users to purchase hand made natural ca
     + [Feature 5 Products and Product Detail Pages](#feature-5-products-and-product-detail-pages)
       - [Description feature 5](#description-feature-5)
       - [User Stories feature 5](#user-stories-feature-5)
-    + [Feature 6 Sale items page](#feature-6-sale-items-page)
+    + [Feature 6 Profile Page](#feature-6-profile-page)
       - [Description feature 6](#description-feature-6)
       - [User Stories feature 6](#user-stories-feature-6)
-    + [Feature 7 Favourites page](#feature-7-favourites-page)
+    + [Feature 7 Product Management](#feature-7-product-management)
       - [Description feature 7](#description-feature-7)
       - [User Stories feature 7](#user-stories-feature-7)
-    + [Feature 8 News Page](#feature-8-news-page)
+    + [Feature 8 Bag and Checkout](#feature-8-bag-and-checkout)
       - [Description feature 8](#description-feature-8)
       - [User Stories feature 8](#user-stories-feature-8)
-    + [Feature 9 Profile Page](#feature-9-profile-page)
+    + [Feature 9 Admin](#feature-9-admin)
       - [Description feature 9](#description-feature-9)
       - [User Stories feature 9](#user-stories-feature-9)
-    + [Feature 10 Product Management](#feature-10-product-management)
-      - [Description feature 10](#description-feature-10)
-      - [User Stories feature 10](#user-stories-feature-10)
-    + [Feature 11 News item Management](#feature-11-news-item-management)
-      - [Description feature 11](#description-feature-11)
-      - [User Stories feature 11](#user-stories-feature-11)
-    + [Feature 12 Bag and Checkout](#feature-12-bag-and-checkout)
-      - [Description feature 12](#description-feature-12)
-      - [User Stories feature 12](#user-stories-feature-12)
-    + [Feature 13 Admin](#feature-13-admin)
-      - [Description feature 13](#description-feature-13)
-      - [User Stories feature 13](#user-stories-feature-13)
   * [Features Left to Implement](#features-left-to-implement)
 - [Technologies Used](#technologies-used)
   * [Languages](#languages)
@@ -365,3 +353,9 @@ Log in               |&#9989;        |&#10060;         |&#10060; |
 Bag |&#9989;        |&#9989;          |&#9989; |
 Checkout |&#9989;        |&#9989;          |&#9989; |
 Checkout success |&#9989;        |&#9989;          |&#9989; |
+
+
+## Existing Features
+The screenshots below show mainly desktop images, the tablet and mobile images are displayed in the TESTING.MD file for each feature/user story
+### Feature 1 Navigation Bar and Homepage
+#### Description feature 1
