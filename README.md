@@ -145,6 +145,68 @@ Bag | A user can add products to a shopping bag which contains each item in the 
 Checkout | A user can enter their delivery details and credit card information to checkout an order.   
 Checkout success | Once an order is successful, the user can view the checkout success.
 
+
+### Code Structure
+The project is divided into a number of apps, and built using the Django Framework
+The project was built on the Boutique Ado project, that was part of the project content
+The apps are :
+- bag (part of Boutique Ado project): This app contains functionality regarding users shopping bag
+- checkout (part of Boutique Ado project): This app contains functionality regarding users checking out and payment of an order
+- home (part of Boutique Ado project): This app contains functionality regarding the users home page
+- products (part of Boutique Ado project): This app contains functionality regarding a product.
+- profiles (part of Boutique Ado project): This app contains functionality regarding users profile and order history
+
+There are also:
+- manage.py: Main python file for starting the website
+- README.md: Readme documentation
+- Procfile: To run the application
+- ms4_kandl: Containing settings.py(Settings) and urls.py(Website urls) for example
+- templates: Containing the base.html, about.html, allauth(django authentication) and includes html files
+- static: Base css and Javascript files(toast and send_email)
+- Requirements.txt: Containing the python libraries installed
+Note: Environment variable values are not exposed in the source code, they are stored locally in env.py that is not checked in(and listed in .gitignore, and on Heroku in app settings
+
+
+### Database
+- The website is a data-centric one with html, javascript, css used with the bootstrap(version 4) framework as a frontend
+- The backend consists of Python, with the Django framework and a database of Postgres for the deployed Heroku version.
+
+
+#### Models
+- The following models were created to represent the database model structure for the website
+
+##### User Model
+- The User model contains information about the user. It is part of the Django allauth library
+- The model contains the following fields: username, password, first_name, last_name, email, is_staff, is_active, is_superuser, last_login, date_joined
+
+##### UserProfile Model
+- The UserProfile model has a one-to-one relationship with User
+- The model contains the following fields: default_phone_number, default_street_address1, default_street_address2
+  default_town_or_city, default_county, default_postcode and default_country
+
+##### Order Model
+- The Order model contains information about orders made on the website.
+- It contains UserProfile as a foreign-key.
+- The model contains the following fields: order_number, user_profile, full_name, email, phone_number, country, postcode, town_or_city, street_address1
+, street_address2, county, date, delivery_cost, order_total, grand_total, original_bag, stripe_pid
+
+##### OrderLineItem Model
+- The OrderLineItem model contains information about an entry in an order, for orders made on the website.
+- It contains Order and Product as foreign-keys.
+- The model contains the following fields: order, product, product_size, quantity, lineitem_total
+
+##### Product Model
+- The Product Model represents a product and its details
+- It contains Category as a foreign-key
+- The model contains the following fields: name, category, price, colour, code, description, feature1, has_sizes, rating, image_url, image
+- The image field contains the product image
+- The image_url field contains the url to where the image file is physically stored, for example AWS S3 bucket
+
+##### Category Model
+- The Category model contains a product category
+- The model contains the following fields: name, friendly_name
+
+
 ### Wireframes 
 ---
 1. Home
