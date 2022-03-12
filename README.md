@@ -372,3 +372,40 @@ Checkout success |&#9989;        |&#9989;          |&#9989; |
 <br>![Homepage desktop filter price]()
 - If a user encounters an error, the relevant error page is displayed (400, 403, 404 or 500)
 <br>![404]()
+
+### Feature 2 Footer
+#### Description feature 2
+- A footer is displayed at the bottom of the page
+<br>![Footer]()
+- The footer contains some text, social media icons(that open in a new tab)
+
+### Feature 3 Register
+#### Description feature 3
+- A regular user can register for an account.
+- The user must provide a valid email address, email address(confirmation), username, password, password confirmation
+<br>![Register]()
+- These 5 fields are  mandatory and a user cannot register the same details twice for an account
+<br>![Register error]()
+- A confirmation link is sent to the users email address, they must click on the verification link to verify the account.
+<br>![Email content]()
+- Once that is done they can sign in to the website with their username/email address and password
+
+### Feature 4 Login
+#### Description feature 4
+- An admin/regular user can log in to the website using their username or email address and password
+- Both fields are mandatory
+- Once logged in the user will be navigated to the homepage
+<br>![Email confirmed]()
+- The user must have an account in the system, and they must enter the correct  username or email address and password
+- If the user needs to request a password, they can click on the Forgot Password link
+<br>![Forgot Password]()
+- They enter their email address, and they are emailed reset their password. Once they do this they can log in
+
+### Feature 5 Products and Product Detail Pages
+#### Description feature 5
+- A user view the products page with product count and with each product image, title, category, price
+<br>![Products Desktop]()
+<br>![Products Tablet]()
+- The user can sort the products by Price(high to low, low to high), Rating(high to low, low to high), Name(A-Z, Z-A), Category(A-Z, Z-A)
+- A product detail page displays all the product information (image, description, colour, code, rating, category, description, features and reviews(the latest first))
+<br>![Products Detail]()
