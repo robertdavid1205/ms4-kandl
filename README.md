@@ -356,6 +356,19 @@ Checkout success |&#9989;        |&#9989;          |&#9989; |
 
 
 ## Existing Features
-The screenshots below show mainly desktop images, the tablet and mobile images are displayed in the TESTING.MD file for each feature/user story
 ### Feature 1 Navigation Bar and Homepage
 #### Description feature 1
+- The homepage consists of a background image and text, a header/nav bar and footer
+- The header and footer is consistent across all pages
+- The navigation bar is displayed with a logo on all pages with a search box, My account, and shopping bag icons on a desktop device
+<br>![Homepage desktop]()
+- The navigation bar is displayed on all pages with a search box, My account, shopping bag icons on a mobile/tablet device
+<br>![Homepage tablet]()
+<br>![Homepage mobile]()
+- A regular user logged in, I see a "My Profile"/Logout under the My Account dropdown
+- An admin user logged in, I see a Product Management/My Profile/Logout under the My Account dropdown
+<br>![Homepage admin desktop]()
+- On a desktop device there is a number of filters described below: All Products, Candles , Soaps
+<br>![Homepage desktop filter price]()
+- If a user encounters an error, the relevant error page is displayed (400, 403, 404 or 500)
+<br>![404]()
