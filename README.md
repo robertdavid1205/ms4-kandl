@@ -409,3 +409,217 @@ Checkout success |&#9989;        |&#9989;          |&#9989; |
 - The user can sort the products by Price(high to low, low to high), Rating(high to low, low to high), Name(A-Z, Z-A), Category(A-Z, Z-A)
 - A product detail page displays all the product information (image, description, colour, code, rating, category, description, features and reviews(the latest first))
 <br>![Products Detail]()
+
+### Feature 6 Profile Page
+#### Description feature 6
+- A regular user can update their default delivery information as per the user stories below
+- A user must be logged in to see their profile page
+- This is the information that is displayed when the user is checking out an order
+- A user can view and update their Default delivery information
+<br>![Default delivery information]()
+- The user can also view their past orders and click on an order to view the order details
+
+### Feature 7 Product Management
+#### Description feature 7
+- An admin user can add, edit and delete products
+- To add a product the user can click on the Product Management link in My Account
+- They must enter a name, category, price, colour, code, description, has Sizes(Unknown, Yes, No), Rating, Image url, upload an image
+<br>![Add Product]()
+- The product is then added and visible on the products page, and by clicking on the product itself
+- The image is stored in the AWS S3 bucket
+- An admin user can edit a product, by updating the relevant field(s)
+<br>![Edit Product]()
+- An admin user can delete a product, by clicking on the delete link on the product detail page or the delete button on the products page
+
+### Feature 8 Bag and Checkout
+#### Description feature 8
+- A user can add items to a bag, if the bag is empty a message is displayed
+- A user can update the quantity or remove an item from their shopping bag
+<br>![Bag Empty]()
+<br>![Bag Desktop]()
+<br>![Bag Mobile]()
+- The user can "checkout" and their details will be displayed.
+- The fields are: (Full Name, email address, both mandatory) and Delivery Information: Phone Number(mandatory), Street Address 1(mandatory), Street Address 2, Town or City(mandatory, County, State or Locality, Postal Code and Country(mandatory)), which is populated from my profile if filled in
+<br>![Order]()
+<br>![Order mobile]()
+- The user receives a confirmation and also email to their email address supplied
+<br>![Order Success]() 
+- The order is available on the user profile page, and they can click on the order itself
+<br>![User profile]()
+- A regular user not logged in, I can add items to the bag and make a purchase
+
+### Feature 13 Admin
+#### Description feature 13
+- As per the user stories below there are a number of admin views that have been configured at https://kandl-ms4.herokuapp.com/admin
+- They give excellent CRUD operations to the data in the Postgres database as well as search and filter options
+- They are as follows:
+- Order
+<br>![Order]()
+- Products
+<br>![Products]()
+- Users
+<br>![Users]()
+- Categories
+<br>![Categories]()
+
+
+##  Features Left to Implement
+- I am content with what was implemented, however, here are some additional "nice to have" features and updates that could be added to the project
+
+Number | Update  
+ ------------ | ------- |
+1 | Add reviews by customers and comments |
+2 | A newsletter section |
+3 | Improved searching and filtering on the products page, a side panel filter |
+4 | Integration with a Continuous Integration application, for example: Travis CI or Semaphore CI |
+5 | Improved pagination look/feel on products page |
+6 | The functionality to add and display multiple images per product |
+
+
+# Technologies Used
+## Languages 
+- HTML (https://en.wikipedia.org/wiki/HTML)
+    - The project uses html to build the relevant pages
+- CSS (https://en.wikipedia.org/wiki/CSS)
+    - The project uses CSS to style the relevant pages
+- Javascript (https://www.javascript.com/)
+    - Javascript was used for all scripting on the site 
+- Django (https://www.djangoproject.com/)
+    - Django is the framework used in this project
+    - The Django templating language was used to render pages
+    - The Django unit test library was used for unit tests (https://docs.djangoproject.com/en/3.2/topics/testing/overview/)
+- Python v3.9 (https://www.python.org/)
+    - Python was used for server side coding on the project, a number of libraries were also used(The requirements.txt file 
+  contains this list):
+      - asgiref==3.4.1 (Support for Python asynchronous web apps and servers to communicate with each other) 
+      - boto3==1.18.47 (Python SDK for AWS)
+      - botocore==1.21.47 (Python SDK for AWS) 
+      - dj-database-url==0.5.0 (Support for DATABASE_URL environment variable)
+      - Django==3.2.7 (Web framework)
+      - django-allauth==0.41.0 (Web framework authentication)
+      - django-countries==7.2.1 (ISO 3166 countries list)
+      - django-crispy-forms==1.12.0 (Django rendering of forms)
+      - django-storages==1.11.1 (Django storage backend for AWS S3)
+      - gunicorn==20.1.0 (Python WSGI Http server)
+      - jmespath==0.10.0 (Full suite of data driven testcase)
+      - oauthlib==3.1.1 (Framework for oauth1 and oauth2)
+      - Pillow==8.3.2 (Imaging library)
+      - psycopg2-binary==2.9.1 (Postgres adapter)
+      - python3-openid==3.2.0 (Support for the OpenID decentralized identity system)
+      - pytz==2021.1 (Interface to the IANA database, which uses ASCII name)
+      - requests-oauthlib==1.3.0 (Authentication support for Requests)
+      - s3transfer==0.5.0 (Python library for managing Amazon S3 transfers)
+      - sqlparse==0.4.1 (Non-validating SQL parser for Python)
+      - stripe==2.60.0 (SDK for processing payments)
+
+## Libraries and other resources
+- Bootstrap 5.0 (https://getbootstrap.com/docs/5.0)
+    - The project uses the bootstrap library for some UI components in the website (Buttons, Card, Carousel, Modal, Pagination, Navbar)
+- Postgres (https://www.postgresql.org/)
+  - The deployed project on Heroku uses a Postgres database
+- SQLLite (https://www.sqlite.org/index.html)
+  - The database uses in local development was a SQLLite database
+- Gitpod (https://gitpod.io/)
+    - Gitpod was used as an IDE for the project initially, then I switched to Pycharm
+- Pycharm (https://www.jetbrains.com/pycharm/)
+    - Pycharm was the main IDE used on the project
+- Github (https://github.com/)
+    - GitHub was used to store the project code in a repository
+- Google Fonts (https://fonts.google.com/)
+    - Google font Poppins was used as the website font
+- Balsamiq (https://balsamiq.com/)
+    - Balsamiq was used to create the website wireframes
+- Font Awesome (https://fontawesome.com/)
+    - Font awesome was used to provide the relevant fonts/icons for the website
+- JQuery (https://jquery.com)
+    - JQuery was used in some javascript files for DOM manipulation
+- CSS Validation Service (https://jigsaw.w3.org/css-validator/)
+   - CSS validation service for validation the css in the project  
+- HTML Markup Validation Service (https://validator.w3.org/)   
+    - HTML validation service for validation the css in the project  
+- Chrome dev tools (https://developers.google.com/web/tools/chrome-devtools)
+    - For troubleshooting and debugging of the project code
+- Chrome Lighthouse (https://developers.google.com/web/tools/lighthouse)
+    - For performance, accessibility, progressive web apps, SEO analysis of the project code
+- Responsive Design (http://ami.responsivedesign.is/)
+    - Website for generating the responsive image in this README
+- Python online interpreter (https://www.programiz.com/python-programming/online-compiler/)
+    - For testing python code snippets
+- Unittest (https://docs.djangoproject.com/en/3.2/topics/testing/overview/)
+    - For Python unit testing
+- JSHint (https://jshint.com/)
+  - For javascript code quality
+- PEP8 (https://www.python.org/dev/peps/pep-0008/)
+  - I used the pep8 code analysis plugin in Pycharm to check for pep8 errors
+- Stripe (https://www.stripe.com)
+  - For processing a test credit card to test a payment as part of an order
+
+# Testing
+-------------------
+
+# APIs and configuration
+The project also uses a number of API's and configuration, below are the steps to configure the API in your environment
+
+## Google emails
+To set up the project to send emails and to use a Google account as an SMTP server, the following steps are required
+1. Create an email account at google.com, login, navigate to Settings in your gmail account and then click on Other Google Account Settings
+2. Turn on 2-step verification and follow the steps to enable
+3. Click on app passwords, select Other as the app and give the password a name, for example Django
+4. Click create and a 16 digit password will be generated, note the password down
+5. In the env.py file, create an environment variable called EMAIL_HOST_PASS with the 16 digit password
+6. In the env.py file, create an environment variable called EMAIL_HOST_USER with the email address of the gmail account
+7. Set and confirm the following values in the settings.py file to successfully send emails
+<br><code>EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'</code>
+<br><code>EMAIL_USE_TLS = True</code>
+<br><code>EMAIL_PORT = 587</code>
+<br><code>EMAIL_HOST = 'smtp.gmail.com'</code>
+<br><code>EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')</code>
+<br><code>EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')</code>
+<br><code>DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')</code>
+8. You will also need to set the variables EMAIL_HOST_PASS and EMAIL_HOST_USER in your production instance, for example Heroku
+
+## Stripe
+1. Register for an account at stripe.com
+2. Click on the Developers section of your account once logged in
+3. Under Developers, click on the API keys section
+4. Note the values for the publishable and secret keys
+5. In your local environment(env.py) and heroku, create environment variables STRIPE_PUBLIC_KEY and STRIPE_SECRET_KEY with the publishable and secret key values
+<br><code>os.environ.setdefault('STRIPE_PUBLIC_KEY', 'YOUR_VALUE_GOES_HERE')</code>
+<br><code>os.environ.setdefault('STRIPE_SECRET_KEY', 'YOUR_VALUE_GOES_HERE')</code>
+6. Back in the Developers section of your stripe account click on Webhooks
+7. Create a webhook with the url of your website <url>/checkout/wh/, for example: https://kandl-ms4.herokuapp.com/checkout/wh/
+8. Select the payment_intent.payment_failed and payment_intent.succeeded as events to send
+9. Note the key created for this webhook
+10. In your local environment(env.py) and heroku, create environment variable STRIPE_WH_SECRET with the secret values
+<code>os.environ.setdefault('STRIPE_WH_SECRET', 'YOUR_VALUE_GOES_HERE')</code>
+11. Feel free to test out the webhook and note the success/fail attempts for troubleshooting
+
+# Deployment
+There are a number of applications that need to be configured to run this application locally or on a cloud based service, for example Heroku
+
+## Amazon WebServices
+1. Create an account at aws.amazon.com
+2. Open the S3 application and create an S3 bucket named "ci-ms4-rugby-shop"
+3. Uncheck the "Block All Public access setting"
+4. In the Properties section, navigate to the "Static Website Hosting" section and click edit
+5. Enable the setting, and set the index.html and the error.html values
+6. In the Permissions section, click edit on the CORS configuration and set the below configuration
+7. In the permissions section, click edit on the bucket policy and generate and set the below configuration(or similar to your settings)
+8. In the permissions section, click edit on the Access control list(ACL)
+9. Set Read access for the Bucket ACL for Everyone(Public Access)
+10. The bucket is created, the next step is to open the IAM application to set up access
+11. Create a new user group named "ci-ms4-rugby-shop"
+12. Add the "AmazonS3FullAccess" policy permission for the user group
+13. Go to "Policies" and click "Create New Policy"
+14. Click "Import Managed Policy" and select "AmazonS3FullAccess" > Click 'Import'.
+15. In the JSON editor, update the policy "Resource"
+16. Give the policy a name and click "Create Policy"
+17. Add the newly created policy to the user group
+18. Go to Users and create a new user
+19. Add the user to the user group
+20. Select "Programmatic access" for the access type
+21. Note the AWS_SECRET_ACCESS_KEY and AWS_ACCESS_KEY_ID variables, they are used in other parts of this README for local deployment and Heroku setup
+22. The user is now created with the correct user group and policy
+23. Note the AWS code in settings.py. Note an environment variable called USE_AWS must be set to use these settings, otherwise it will use local storage
+24. These settings set up a cache policy, set the bucket name, and the environment variables AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY that you set in your aws account
+25. The configuration also requires the media/static folders that must be setup in the AWS S3 bucket to store the media and static files 
