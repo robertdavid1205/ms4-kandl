@@ -559,22 +559,22 @@ Number | Update
 
 #### HTML Validation
 
-I used [W3C Markup Validation Service](https://validator.w3.org/) to validate the HTML code. All the pages pass with some errors due to the use of jinja template.
+I used [W3C Markup Validation Service](https://validator.w3.org/) to validate the HTML code.
 
-Results here: [HTML]()
+Results here: [HTML](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/tests/HTML.png)
               
 #### CSS Validation
 
-I used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to validate the CSS code. All the pages pass with 0 errors.
+I used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to validate the CSS code.
 
-Result here: [CSS]()
+Result here: [CSS](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/tests/CSS.png)
 
 #### Performance
 
-I used [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) to check performance of the website and it passes with scores between 90 and 100 on all pages on all 4 criterias Performance/ Accesibility/ Best Practices/ SEO. However on my maschine, I had a problem with the lighthouse app wich didn't displayed one of the criteria properly, and contacted tutors, they said that from theyr part everything is ok.
+I used [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) to check performance of the website and it passes with scores between 90 and 100 on all pages on all 4 criterias Performance/ Accesibility/ Best Practices/ SEO. However on my maschine, I had a problem with the lighthouse app wich didn't displayed one of the criteria properly. I contacted tutors, they said that from theyr part everything is ok and it's not a problem of coding, and I got this photo from them.
 
-Results here: [Lighthouse]()
-              [Tutor]()
+Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/tests/lighthouse_home.png)
+              [Tutor](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/tests/tutor_lighthouse.png)
 
 #### Performed tests on:
 
@@ -671,3 +671,87 @@ There are a number of applications that need to be configured to run this applic
 23. Note the AWS code in settings.py. Note an environment variable called USE_AWS must be set to use these settings, otherwise it will use local storage
 24. These settings set up a cache policy, set the bucket name, and the environment variables AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY that you set in your aws account
 25. The configuration also requires the media/static folders that must be setup in the AWS S3 bucket to store the media and static files 
+
+
+## Local Deployment
+To run this project locally, you will need to clone the repository
+1. Login to GitHub (https://wwww.github.com)
+2. Select the repository robertdavid1205/ms4-kandl
+3. Click the Code button and copy the HTTPS url, for example: https://github.com/robertdavid1205/ms4-kandl
+4. In your IDE, open a terminal and run the git clone command, for example 
+
+    ```git clone https://github.com/robertdavid1205/ms4-kandl```
+
+5. The repository will now be cloned in your workspace
+6. Create an env.py file(do not commit this file to source control) in the root folder in your project, and add in the following code with the relevant key, value pairs, and ensure you enter the correct key values<br>
+<br><code>import os</code>
+<br><code>os.environ.setdefault("SECRET_KEY", TO BE ADDED BY USER)</code>
+<br><code>os.environ.setdefault("STRIPE_PUBLIC_KEY", TO BE ADDED BY USER)</code>
+<br><code>os.environ.setdefault("STRIPE_SECRET_KEY", TO BE ADDED BY USER)</code>
+<br><code>os.environ.setdefault("STRIPE_WH_SECRET", TO BE ADDED BY USER)</code>
+<br><code>os.environ.setdefault("AWS_ACCESS_KEY_ID", TO BE ADDED BY USER)</code>
+<br><code>os.environ.setdefault("AWS_SECRET_ACCESS_KEY", TO BE ADDED BY USER)</code>
+<br><code>os.environ.setdefault("EMAIL_HOST_USER", TO BE ADDED BY USER)</code>
+<br><code>os.environ.setdefault("EMAIL_HOST_PASS", TO BE ADDED BY USER)</code>
+<br><code>os.environ.setdefault("USE_AWS", TO BE ADDED BY USER)</code>
+<br><code>os.environ.setdefault("DATABASE_URL", TO BE ADDED BY USER)</code>
+7. Some values for the environment variables above are described in different sections of this readme
+8. Install the relevant packages as per the requirements.txt file
+9. In the settings.py ensure the connection is set to either the Heroku postgres database or the local sqllite database
+10. Ensure debug is set to true in the settings.py file for local development
+11. Add localhost/127.0.0.1 to the ALLOWED_HOSTS variable in settings.py
+12. Run "python3 manage.py showmigrations" to check the status of the migrations
+13. Run "python3 manage.py migrate" to migrate the database
+14. Run "python3 manage.py createsuperuser" to create a super/admin user
+15. Run "python3 manage.py loaddata categories.json" on the categories file in products/fixtures to create the categories
+16. Run "python3 manage.py loaddata products.json" on the products file in products/fixtures to create the products
+17. Run "python3 manage.py loaddata news.json" on the news file in news/fixtures to create the news items(optional)
+18. Start the application by running <code>python3 manage.py runserver</code>
+19. Open the application in a web browser, for example: http://127.0.0.1:8000/
+
+## Heroku and Postgres Database
+To deploy this application to Heroku, run the following steps.
+1. Create an account at heroku.com
+2. Create an app, give it a name for example ms4-kandl, and select a region
+3. Under resources search for postgres, and add a Postgres database to the app    
+4. Note the DATABASE_URL, this can be set as an environment variable in Heroku and your local deployment(env.py)
+5. Install the plugins dj-database-url and psycopg2-binary.
+6. Run pip3 freeze > requirements.txt so both are added to the requirements.txt file
+7. Create a Procfile with the text: web: gunicorn rugby_shop.wsgi:application for example
+8. In the settings.py ensure the connection is to the Heroku postgres database
+9. Ensure debug is set to false in the settings.py file
+10. Add localhost/127.0.0.1, and ms4-kandl.herokuapp.com to the ALLOWED_HOSTS variable in settings.py
+11. Run "python3 manage.py showmigrations" to check the status of the migrations
+12. Run "python3 manage.py migrate" to migrate the database
+13. Run "python3 manage.py createsuperuser" to create a super/admin user
+14. Run "python3 manage.py loaddata categories.json" on the categories file in products/fixtures to create the categories
+15. Run "python3 manage.py loaddata products.json" on the products file in products/fixtures to create the products
+16. Install gunicorn and add it to the requirements.tx file using the command pip3 freeze > requirements.txt
+17. From the CLI login to Heroku using the command heroku git:remote -a ci-ms4-loverugby
+18. Disable collectstatic in Heroku before any code is pushed using the command heroku config:set DISABLE_COLLECTSTATIC=1 -a ci-ms4-loverugby
+19. Push the code to Heroku using the command git push heroku master
+20. Connect the app to GitHub, and enable automatic deploys from main
+21. Click deploy to deploy your application to Heroku for the first time
+22. Click on the link provided to access the application
+23. If you encounter any issues accessing the build logs is a good way to troubleshoot the issue
+
+# Credits
+- The project is based on the Boutique Ado project by the Code Institute and was used as a basic for my project (https://github.com/Code-Institute-Solutions/boutique_ado_v1/)
+- I used html/css code from bootstrap then tweaked it accordingly for the site footer.
+- For the shop button in the home page I used and tweaked some code from https://cssbuttons.io/
+
+# Content
+- Font Awesome (http://fontawesome.com)    
+    - The icons used on the site from font awesome
+- Fonts (https://fonts.google.com/)    
+    - The text font(Poppins) is from Google fonts
+
+<br>
+
+# Media
+- Photos taken from https://neomorganics.eu/
+- Background photo made by George Chipuc
+ <br>
+
+# Acknowledgements
+- I would like to thank to all the tutors who helped me with the problems I had during the process, and my mentor Mo Shami for his input, help and feedback.

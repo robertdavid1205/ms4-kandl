@@ -107,6 +107,7 @@ body {
 }
 
 /* cool-shop-button */
+/* code adapted from https://cssbuttons.io/ */
 .cool-shop-button {
     --glow-color: #e8b923;
     --glow-spread-color: rgba(255, 195, 30, 0.932);
