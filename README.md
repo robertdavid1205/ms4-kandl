@@ -361,33 +361,33 @@ Checkout success |&#9989;        |&#9989;          |&#9989; |
 - The homepage consists of a background image and text, a header/nav bar and footer
 - The header and footer is consistent across all pages
 - The navigation bar is displayed with a logo on all pages with a search box, My account, and shopping bag icons on a desktop device
-<br>![Homepage desktop]()
+<br>![Homepage desktop](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/homepage.png)
 - The navigation bar is displayed on all pages with a search box, My account, shopping bag icons on a mobile/tablet device
-<br>![Homepage tablet]()
-<br>![Homepage mobile]()
+<br>![Homepage tablet](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/homepage_tablet.png)
+<br>![Homepage mobile](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/homepage_mobile.png)
 - A regular user logged in, I see a "My Profile"/Logout under the My Account dropdown
 - An admin user logged in, I see a Product Management/My Profile/Logout under the My Account dropdown
-<br>![Homepage admin desktop]()
+<br>![Homepage admin desktop](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/super_my_account.png)
 - On a desktop device there is a number of filters described below: All Products, Candles , Soaps
-<br>![Homepage desktop filter price]()
+<br>![Homepage desktop filter price](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/desktop_filter.png)
 - If a user encounters an error, the relevant error page is displayed (400, 403, 404 or 500)
-<br>![404]()
+<br>![404](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/404_page.png)
 
 ### Feature 2 Footer
 #### Description feature 2
 - A footer is displayed at the bottom of the page
-<br>![Footer]()
+<br>![Footer](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/footer.png)
 - The footer contains some text, social media icons(that open in a new tab)
 
 ### Feature 3 Register
 #### Description feature 3
 - A regular user can register for an account.
 - The user must provide a valid email address, email address(confirmation), username, password, password confirmation
-<br>![Register]()
+<br>![Register](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/register.png)
 - These 5 fields are  mandatory and a user cannot register the same details twice for an account
-<br>![Register error]()
+<br>![Register error](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/register_error.png)
 - A confirmation link is sent to the users email address, they must click on the verification link to verify the account.
-<br>![Email content]()
+<br>![Email content](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/email_confirmation.png)
 - Once that is done they can sign in to the website with their username/email address and password
 
 ### Feature 4 Login
@@ -395,20 +395,20 @@ Checkout success |&#9989;        |&#9989;          |&#9989; |
 - An admin/regular user can log in to the website using their username or email address and password
 - Both fields are mandatory
 - Once logged in the user will be navigated to the homepage
-<br>![Email confirmed]()
+<br>![Login](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/login.png)
 - The user must have an account in the system, and they must enter the correct  username or email address and password
 - If the user needs to request a password, they can click on the Forgot Password link
-<br>![Forgot Password]()
+<br>![Forgot Password](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/login_error.png)
 - They enter their email address, and they are emailed reset their password. Once they do this they can log in
 
 ### Feature 5 Products and Product Detail Pages
 #### Description feature 5
 - A user view the products page with product count and with each product image, title, category, price
-<br>![Products Desktop]()
-<br>![Products Tablet]()
+<br>![Products Desktop](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/products.png)
+<br>![Products Mobile](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/products_mobile.png)
 - The user can sort the products by Price(high to low, low to high), Rating(high to low, low to high), Name(A-Z, Z-A), Category(A-Z, Z-A)
 - A product detail page displays all the product information (image, description, colour, code, rating, category, description, features and reviews(the latest first))
-<br>![Products Detail]()
+<br>![Products Detail](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/product_detail.png)
 
 ### Feature 6 Profile Page
 #### Description feature 6
@@ -416,7 +416,7 @@ Checkout success |&#9989;        |&#9989;          |&#9989; |
 - A user must be logged in to see their profile page
 - This is the information that is displayed when the user is checking out an order
 - A user can view and update their Default delivery information
-<br>![Default delivery information]()
+<br>![Default delivery information](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/my_profile.png)
 - The user can also view their past orders and click on an order to view the order details
 
 ### Feature 7 Product Management
@@ -424,28 +424,28 @@ Checkout success |&#9989;        |&#9989;          |&#9989; |
 - An admin user can add, edit and delete products
 - To add a product the user can click on the Product Management link in My Account
 - They must enter a name, category, price, colour, code, description, has Sizes(Unknown, Yes, No), Rating, Image url, upload an image
-<br>![Add Product]()
+<br>![Add Product](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/add_a_product.png)
 - The product is then added and visible on the products page, and by clicking on the product itself
 - The image is stored in the AWS S3 bucket
 - An admin user can edit a product, by updating the relevant field(s)
-<br>![Edit Product]()
+<br>![Edit Product](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/edit_product.png)
 - An admin user can delete a product, by clicking on the delete link on the product detail page or the delete button on the products page
 
 ### Feature 8 Bag and Checkout
 #### Description feature 8
 - A user can add items to a bag, if the bag is empty a message is displayed
 - A user can update the quantity or remove an item from their shopping bag
-<br>![Bag Empty]()
-<br>![Bag Desktop]()
-<br>![Bag Mobile]()
+<br>![Bag Empty](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/empty_bag.png)
+<br>![Bag Desktop](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/bag_desktop.png)
+<br>![Bag Mobile](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/bag_mobile.png)
 - The user can "checkout" and their details will be displayed.
 - The fields are: (Full Name, email address, both mandatory) and Delivery Information: Phone Number(mandatory), Street Address 1(mandatory), Street Address 2, Town or City(mandatory, County, State or Locality, Postal Code and Country(mandatory)), which is populated from my profile if filled in
-<br>![Order]()
-<br>![Order mobile]()
+<br>![Checkou](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/checkout.png)
+<br>![Checkout mobile](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/checkout_mobile.png)
 - The user receives a confirmation and also email to their email address supplied
-<br>![Order Success]() 
+<br>![Order Success](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/order_success.png) 
 - The order is available on the user profile page, and they can click on the order itself
-<br>![User profile]()
+<br>![User profile](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/order_available.png)
 - A regular user not logged in, I can add items to the bag and make a purchase
 
 ### Feature 13 Admin
@@ -454,13 +454,13 @@ Checkout success |&#9989;        |&#9989;          |&#9989; |
 - They give excellent CRUD operations to the data in the Postgres database as well as search and filter options
 - They are as follows:
 - Order
-<br>![Order]()
+<br>![Order](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/admin_orders.png)
 - Products
-<br>![Products]()
+<br>![Products](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/admin_products.png)
 - Users
-<br>![Users]()
+<br>![Users](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/admin_users.png)
 - Categories
-<br>![Categories]()
+<br>![Categories](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/admin_categories.png)
 
 
 ##  Features Left to Implement
