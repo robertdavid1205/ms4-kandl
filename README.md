@@ -555,7 +555,55 @@ Number | Update
   - For processing a test credit card to test a payment as part of an order
 
 # Testing
--------------------
+---
+
+#### HTML Validation
+
+I used [W3C Markup Validation Service](https://validator.w3.org/) to validate the HTML code. All the pages pass with some errors due to the use of jinja template.
+
+Results here: [HTML]()
+              
+#### CSS Validation
+
+I used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to validate the CSS code. All the pages pass with 0 errors.
+
+Result here: [CSS]()
+
+#### Performance
+
+I used [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) to check performance of the website and it passes with scores between 90 and 100 on all pages on all 4 criterias Performance/ Accesibility/ Best Practices/ SEO. However on my maschine, I had a problem with the lighthouse app wich didn't displayed one of the criteria properly, and contacted tutors, they said that from theyr part everything is ok.
+
+Results here: [Lighthouse]()
+              [Tutor]()
+
+#### Performed tests on:
+
+* HP Envy
+* Iphone SE
+* Samsung Galaxy A52
+* Samsung Galaxy Tab S6
+
+##### Tests performed:
+
+1. Page links and icons redirect the user to the corect place on both desktop and mobile versions.
+2. The pages scrollable in mobile and tablet views.
+3. Nav bar links are able to redirect users to the correct page and there are no broken links.
+4. In the case of an incorrect URL, the user is redirected to a 404 page wich will direct them back to the home page. 
+5. The login page works correctly.
+6. The register page works correctly.
+7. All the buttons function correctly.
+
+##### Results:
+
+* All the devices passed all tests.
+
+#### Browser compatibility
+
+* *Google Chrome*: Website and user stories work as expected.
+* *Safari*: Website and user stories work as expected.
+* *Microsoft Edge*: Website and user stories work as expected.
+* *Firefox*: Website and user stories work as expected.
+
 
 # APIs and configuration
 The project also uses a number of API's and configuration, below are the steps to configure the API in your environment
