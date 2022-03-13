@@ -36,9 +36,10 @@
         {% endblock %}
 
         <title>Kandl {% block extra_title %}{% endblock %} </title>
-        <link rel="shortcut icon" type="image/jpg" href="/readme-images/favicon/favicon-16x16.png">
+        <link rel="icon" type="image/x-icon" href="/readme-images/favicon/favicon-16x16.png">
     </head>
     <body>
+        <!-- Navbar -->
         <header class="container-fluid fixed-top">
             <div id="topnav" class="row pt-lg-2 d-none d-lg-flex">
                 <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
@@ -140,6 +141,7 @@
 
         {% block content %}
         {% endblock %}
+        <!-- Footer -->
         <div class="above-footer"></div>
         <footer class="bg-dark fixed-bottom text-center text-white">
             <!-- Grid container -->
@@ -185,18 +187,17 @@
                   role="button"
                   aria-label="linkedin-icon"
                   ><i class="fab fa-linkedin-in"></i
-                ></a>
-              </section>
+                  ></a>
+                </section>
               <!-- Section: Social media -->
             </div>
             <!-- Grid container -->
           
             <!-- Copyright -->
             <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-              © 2022 Copyright:
-              <a class="text-white" href="https://www.linkedin.com/in/robertdavid2020/">Robert David</a>
+                © 2022 Copyright:
+                 <a class="text-white" href="https://www.linkedin.com/in/robertdavid2020/">Robert David</a>
             </div>
-            <!-- Copyright -->
         </footer>
 
         {% block postloadjs %}
