@@ -373,6 +373,12 @@ input[name='q']::placeholder {
 }
 
 
+/* 404 page */
+
+.info-container {
+    margin-top: 20vh;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
