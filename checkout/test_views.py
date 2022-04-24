@@ -8,7 +8,6 @@ from checkout.models import Order
 from profiles.models import UserProfile
 
 
-
 class TestCheckoutViews(TestCase):
     """
     A class for testing checkout views
