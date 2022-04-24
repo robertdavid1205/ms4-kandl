@@ -158,6 +158,11 @@ Note: Environment variable values are not exposed in the source code, they are s
 - The website is a data-centric one with html, javascript, css used with the bootstrap(version 4) framework as a frontend
 - The backend consists of Python, with the Django framework and a database of Postgres for the deployed Heroku version.
 
+#### Physical Database model
+
+- This model contains all fields stored in the database collections and their data type and mimics the structure of what is actually stored in the Postgres database
+<br>![Database model](/readme-images/data_schema.png)
+
 
 #### Models
 - The following models were created to represent the database model structure for the website
