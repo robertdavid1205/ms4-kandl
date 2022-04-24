@@ -182,7 +182,7 @@ Note: Environment variable values are not exposed in the source code, they are s
 - The model contains the following fields: order_number, user_profile, full_name, email, phone_number, country, postcode, town_or_city, street_address1
 , street_address2, county, date, delivery_cost, order_total, grand_total, original_bag, stripe_pid
 
-##### OrderLineItem Model
+##### OrderLineItem Model 
 - The OrderLineItem model contains information about an entry in an order, for orders made on the website.
 - It contains Order and Product as foreign-keys.
 - The model contains the following fields: order, product, product_size, quantity, lineitem_total
