@@ -602,6 +602,638 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
 
 * All the devices passed all tests.
 
+#### Testing user stories
+---
+1. As an admin/regular user the navigation bar is displayed on all pages with a search box, My account, and shopping bag icons on a desktop device
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>Click on the icons from the navbar of the site</td>
+            <td>To find out information about the site</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+2. As an admin/regular user the navigation bar is displayed on all pages with a search box, My account, and shopping bag icons on a mobile/tablet device
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>Click on the icons from the navbar of the site</td>
+            <td>To find out information about the site</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+3. As a regular user not logged in, I see a Register/Login link under the My Account dropdown
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>Click on the my account button on the navbar</td>
+            <td>To find register/login link</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+4. As a regular logged in, I am brought to the Favourites page if I click on the Favourites icon
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>Click on the my profile button under my account button on the navbar</td>
+            <td>To find my favourites</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+5. As a regular user logged in/not logged in, I am brought to my shopping bag if I click on the Bag icon
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>Click on the shopping bag button on the navbar</td>
+            <td>To find my shopping bag</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+6. As a regular/admin user logged in, I see a "My Profile"/Logout under the My Account dropdown
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>Click on my account button on the navbar</td>
+            <td>To find logout button</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+7. As a regular/admin user logged in, if I click on the My Profile under My Account I am brought to the My Profile page
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>Click on my profile button under my account button on the navbar</td>
+            <td>To find my profile page</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+8. As a regular/admin user I can view the Home link in the header, and clicking it will bring the user to the homepage
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>Click on kandl perfect candles button on the navbar</td>
+            <td>To find homepage</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+9. As a regular/admin user I can click on the "All Products" filter, click By Price, and will be brought to the Products page, with products price low to high displayed
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>Click on  by price button under the all products button on the navbar</td>
+            <td>To find the products sorted by price</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+10. As a regular/admin user I can click on the "All Products" filter, click By Rating, and will be brought to the Products page, with products rating high to low displayed
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>Click on  by rating button under the all products button on the navbar</td>
+            <td>To find the products sorted by rating</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+11. As a regular/admin user I can click on the "All Products" filter, click By Category, and will be brought to the Products page, with products category a-z displayed
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>Click on  by category button under the all products button on the navbar</td>
+            <td>To find the products sorted by category</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+12. As a regular/admin user I can click on the "Candles" filter, and filter by soy or beewax
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>Click on  candles button on the navbar</td>
+            <td>To find the candles sorted by soy or beeswax</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+13. As a regular/admin user I can click on the "Soaps" filter, and filter by solid or liquid
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>Click on soaps button on the navbar</td>
+            <td>To find the candles sorted by solid or liquid</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+14. As a regular/admin user if I encounter an error on the site, I will be navigated to the 404 error page
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>misstype the address</td>
+            <td>To be redirected to the 404 page</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+15. As an admin/regular user four text messages are displayed with icons regarding delivery, packaging, dispatch and knowledge
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>order a product, and pay for the product</td>
+            <td>To see the text messages displaying info about your order</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+16. As a regular user the footer is displayed with the copyright text, website links(socials)
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>See the footer</td>
+            <td>To see the copyright text and the website links(socials)</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+17. As a regular user I can register on the website by providing an email address, email address(confirmation), username, password, password confirmation
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>click on the register button under the my account button</td>
+            <td>To see  register on the website by providing an email address, email address(confirmation), username, password, password confirmation</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+18. As a regular user I will receive an email to verify my account after registering
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>register as a new user with a email address</td>
+            <td>To receive the confirmation email</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+19. As an admin/regular user I can log in to the website using my username or email address and password. Both fields are mandatory. Once correct, I will be navigated to the homepage and a message displayed
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>click login button under the my account button, enter your username and password</td>
+            <td>To login and see confirmation message displayed</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+20. As a regular user I can view the products page with product count and with each product image, title, category, price
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>click all products button</td>
+            <td>get redirected to all products page and see product count, each product image, title, category, price</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+21. As a regular user I can sort the products by Price(high to low, low to high), Rating(high to low, low to high), Name(A-Z, Z-A), Category(A-Z, Z-A)
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>click on sort by button on all products page</td>
+            <td>to sort the products by Price(high to low, low to high), Rating(high to low, low to high), Name(A-Z, Z-A), Category(A-Z, Z-A)</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+22. As a regular user if I click on a product I will be navigated to the product detail page
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>click on any product</td>
+            <td>get redirected to the product detail page</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+23. As a regular user I can click on the Keep Shopping button on the product detail page, and it will navigate the user to the products page
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>click on keep shopping button</td>
+            <td>get redirected to the products page</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+24. As a regular user I can set the product quantity for a product (one plus/minus)
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>click on + / - button on the product detail page</td>
+            <td>set the product quantity for a product (one plus/minus)</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+25. As a regular user I can view my order history(Order Number, Date, Items and Order Total)
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>click on my profile button under the my account button</td>
+            <td>view my order history(Order Number, Date, Items and Order Total)</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+26. As a regular user I can click on an order number to view the order information (Order number, Order date/time, Full Name, Street Address 1, Street Address 2, Town or City, County, State or Locality, Postal Code and Country, Phone Number, Order Total, Deliver, Grand Total)
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>click on any order in my profile page</td>
+            <td>view the order information (Order number, Order date/time, Full Name, Street Address 1, Street Address 2, Town or City, County, State or Locality, Postal Code and Country, Phone Number, Order Total, Deliver, Grand Total)</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+27. As a regular user I can click on a product, set the size(if applicable) and quantity, click Add to Bag and the product will be added to my bag, a message displayed, and a toast will be displayed with the bag contents
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>click on add to bag for any product</td>
+            <td>set the size(if applicable) and quantity, click Add to Bag and the product will be added to my bag, a message displayed, and a toast will be displayed with the bag contents</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+28. As a regular user I can click on the bag icon, I will be brought to my bag. If there are no items in the bag, a message will be displayed
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>click on my bag button in the navbar</td>
+            <td>get redirected to my bag page. If there are no items in the bag, a message will be displayed</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+29. As a regular user I can click on the bag icon, I will be brought to my bag. If there are items, the product image, detail, price, quantity, subtotal will be displayed for the item. The bag total, delivery(if applicable), grand total would be displayed
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>click on my bag button in the navbar</td>
+            <td>get redirected to my bag. If there are items, the product image, detail, price, quantity, subtotal will be displayed for the item. The bag total, delivery(if applicable), grand total would be displayed</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+30. As a regular user I can update the quantity or remove an item from my shopping bag
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>click on + / - buttons on my bag page</td>
+            <td>to update the quantity or remove an item from my shopping bag</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+31. As a regular user I can click on the Secure Checkout button on the bag page or toast message, and I will be brought to the Checkout page
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>click on secure checkout button on my bag page</td>
+            <td>to be redirected to the Checkout page</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+32. As a regular user on the checkout page I can see my details(Full Name, email address, both mandatory) and Delivery Information(Phone Number(mandatory), Street Address 1(mandatory), Street Address 2, Town or City(mandatory, County, State or Locality, Postal Code and Country(mandatory), which is populated from my profile if filled in
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>click on my profile button under the my account button</td>
+            <td>to set my details(Full Name, email address, both mandatory) and Delivery Information, which is populated from my profile if filled in</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+33. As a regular user on the checkout page if I click "Save this delivery information to my profile", the details entered will be saved on the users profile
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>click on "Save this delivery information to my profile" in the checkout page</td>
+            <td>to save details entered to the users profile</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+34. As a regular user on the checkout page if I click the Complete Order button, and the transaction is successful, the user will be navigated to a checkout success page, and an email is sent to the user
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>click on "complete order" button in the checkout page</td>
+            <td>be navigated to a checkout success page, and an email is sent to the user</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
+35. As a regular user not logged in, I can add items to my bag and make a purchase
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Home Page</td>
+            <td>click on "add to bag" button in the product detail page</td>
+            <td> to add items to my bag and make a purchase</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/)
+
 #### Browser compatibility
 
 * *Google Chrome*: Website and user stories work as expected.
