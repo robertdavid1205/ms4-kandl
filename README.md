@@ -620,7 +620,7 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user1.png)
 
 2. As an admin/regular user the navigation bar is displayed on all pages with a search box, My account, and shopping bag icons on a mobile/tablet device
   <table>
@@ -638,7 +638,7 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user2.png)
 
 3. As a regular user not logged in, I see a Register/Login link under the My Account dropdown
   <table>
@@ -656,7 +656,7 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user3.png)
 
 4. As a regular logged in, I am brought to the Favourites page if I click on the Favourites icon
   <table>
@@ -674,7 +674,6 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
 
 5. As a regular user logged in/not logged in, I am brought to my shopping bag if I click on the Bag icon
   <table>
@@ -692,7 +691,7 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user5.png)
 
 6. As a regular/admin user logged in, I see a "My Profile"/Logout under the My Account dropdown
   <table>
@@ -710,7 +709,7 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user6.png)
 
 7. As a regular/admin user logged in, if I click on the My Profile under My Account I am brought to the My Profile page
   <table>
@@ -728,7 +727,7 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user7.png)
 
 8. As a regular/admin user I can view the Home link in the header, and clicking it will bring the user to the homepage
   <table>
@@ -746,7 +745,7 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user8.png)
 
 9. As a regular/admin user I can click on the "All Products" filter, click By Price, and will be brought to the Products page, with products price low to high displayed
   <table>
@@ -764,7 +763,7 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user9.png)
 
 10. As a regular/admin user I can click on the "All Products" filter, click By Rating, and will be brought to the Products page, with products rating high to low displayed
   <table>
@@ -782,7 +781,7 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user10.png)
 
 11. As a regular/admin user I can click on the "All Products" filter, click By Category, and will be brought to the Products page, with products category a-z displayed
   <table>
@@ -800,7 +799,7 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user11.png)
 
 12. As a regular/admin user I can click on the "Candles" filter, and filter by soy or beewax
   <table>
@@ -818,7 +817,7 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user12.png)
 
 13. As a regular/admin user I can click on the "Soaps" filter, and filter by solid or liquid
   <table>
@@ -836,7 +835,7 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user13.png)
 
 14. As a regular/admin user if I encounter an error on the site, I will be navigated to the 404 error page
   <table>
@@ -854,7 +853,7 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user14.png)
 
 15. As an admin/regular user four text messages are displayed with icons regarding delivery, packaging, dispatch and knowledge
   <table>
@@ -872,7 +871,7 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user15.png)
 
 16. As a regular user the footer is displayed with the copyright text, website links(socials)
   <table>
@@ -890,7 +889,7 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user16.png)
 
 17. As a regular user I can register on the website by providing an email address, email address(confirmation), username, password, password confirmation
   <table>
@@ -908,7 +907,7 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user17.png)
 
 18. As a regular user I will receive an email to verify my account after registering
   <table>
@@ -926,7 +925,7 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user18.png)
 
 19. As an admin/regular user I can log in to the website using my username or email address and password. Both fields are mandatory. Once correct, I will be navigated to the homepage and a message displayed
   <table>
@@ -944,7 +943,7 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user19.png)
 
 20. As a regular user I can view the products page with product count and with each product image, title, category, price
   <table>
@@ -962,7 +961,7 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user20.png)
 
 21. As a regular user I can sort the products by Price(high to low, low to high), Rating(high to low, low to high), Name(A-Z, Z-A), Category(A-Z, Z-A)
   <table>
@@ -980,7 +979,7 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user21.png)
 
 22. As a regular user if I click on a product I will be navigated to the product detail page
   <table>
@@ -998,7 +997,7 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user22.png)
 
 23. As a regular user I can click on the Keep Shopping button on the product detail page, and it will navigate the user to the products page
   <table>
@@ -1016,7 +1015,7 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user23.png)
 
 24. As a regular user I can set the product quantity for a product (one plus/minus)
   <table>
@@ -1034,7 +1033,7 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user24.png)
 
 25. As a regular user I can view my order history(Order Number, Date, Items and Order Total)
   <table>
@@ -1052,7 +1051,7 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user25.png)
 
 26. As a regular user I can click on an order number to view the order information (Order number, Order date/time, Full Name, Street Address 1, Street Address 2, Town or City, County, State or Locality, Postal Code and Country, Phone Number, Order Total, Deliver, Grand Total)
   <table>
@@ -1070,7 +1069,7 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user26.png)
 
 27. As a regular user I can click on a product, set the size(if applicable) and quantity, click Add to Bag and the product will be added to my bag, a message displayed, and a toast will be displayed with the bag contents
   <table>
@@ -1088,7 +1087,7 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user27.png)
 
 28. As a regular user I can click on the bag icon, I will be brought to my bag. If there are no items in the bag, a message will be displayed
   <table>
@@ -1106,7 +1105,7 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user28.png)
 
 29. As a regular user I can click on the bag icon, I will be brought to my bag. If there are items, the product image, detail, price, quantity, subtotal will be displayed for the item. The bag total, delivery(if applicable), grand total would be displayed
   <table>
@@ -1124,7 +1123,7 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user29.png)
 
 30. As a regular user I can update the quantity or remove an item from my shopping bag
   <table>
@@ -1142,7 +1141,7 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user30.png)
 
 31. As a regular user I can click on the Secure Checkout button on the bag page or toast message, and I will be brought to the Checkout page
   <table>
@@ -1160,7 +1159,7 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user31.png)
 
 32. As a regular user on the checkout page I can see my details(Full Name, email address, both mandatory) and Delivery Information(Phone Number(mandatory), Street Address 1(mandatory), Street Address 2, Town or City(mandatory, County, State or Locality, Postal Code and Country(mandatory), which is populated from my profile if filled in
   <table>
@@ -1178,7 +1177,7 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user32.png)
 
 33. As a regular user on the checkout page if I click "Save this delivery information to my profile", the details entered will be saved on the users profile
   <table>
@@ -1196,7 +1195,7 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user33.png)
 
 34. As a regular user on the checkout page if I click the Complete Order button, and the transaction is successful, the user will be navigated to a checkout success page, and an email is sent to the user
   <table>
@@ -1214,7 +1213,7 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user34.png)
 
 35. As a regular user not logged in, I can add items to my bag and make a purchase
   <table>
@@ -1232,7 +1231,8 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
         </tr>
   </table> 
  
-&nbsp;[Screenshot](/readme-images/features/)
+&nbsp;[Screenshot](/readme-images/testing_user_stories/user35.png)
+
 
 #### Browser compatibility
 
