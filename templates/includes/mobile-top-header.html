@@ -41,6 +41,14 @@
           {% endif %}
       </div>
   </li>
+  <li class="list-inline-item dropdown">
+    <a class="text-black nav-link d-block d-lg-none" href="{% url 'contact' %}" id="contact-link">
+        <div class="text-center">
+            <div><i class="bi bi-chat-dots-fil"></i></div>
+            <p class="my-0">Contact</p>
+        </div>
+    </a>
+</li>
   <li class="list-inline-item">
       <a class="{% if grand_total %}text-primary font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none" href="{% url 'view_bag' %}">
           <div class="text-center">

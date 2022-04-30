@@ -17,18 +17,16 @@
     <section class="container mb-2">
         <div class="row">
             <div class="col my-4 text-center">
-                <hr>
-                <h2>Contact</h2>
-                <hr>
+                <h2 class="logo-font text-contact">Contact</h2>
             </div>
         </div>
         <div class="row pb-5">
             <div class="col-12 col-lg-6">
-                <p class="black-muted">If you have any questions about our products, leave us a message and we'll get back to you as soon as possible.</p>
+                <p class="black">If you have any questions about our products, leave us a message and we'll get back to you as soon as possible.</p>
                 <form action="{% url 'contact' %}" class="mt-3 black" method="POST" id="contact-form">
                     {% csrf_token %}
                     {{ form|crispy }}
-                    <button type="submit" class="btn btn-black float-right">Send Message</button>
+                    <button type="submit" class="cool-shop-button float-right">Send Message</button>
                 </form>
             </div>
         </div>

@@ -200,6 +200,21 @@ input[name='q']::placeholder {
     color: #aab7c4;
 }
 
+/* contact page */
+
+.text-contact{
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-bottom: 3px;
+
+}
+
+.black {
+    color:rgb(255, 255, 255);
+    font-size: larger;
+    font-weight: 500;
+}
+
 /* ------------------------------- bootstrap toasts */
 .message-container {
     position: fixed;
