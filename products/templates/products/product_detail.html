@@ -28,6 +28,13 @@
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="product-details-container mb-5 mt-md-5">
+                    <div style="display: flex;">
+                        {% if is_product_in_favorites %}
+                            <a href="{% url 'remove_product_from_favorites' product.id 'product' %}" aria-label="remove product from favorites" class="favorite favorite-remove text-danger ml-3"><i class="fas fa-heart"></i></a>
+                        {% else %}
+                        <a href="{% url 'add_product_to_favorites' product.id %}" aria-label="add product to favorites" class="favorite text-danger ml-3"><i class="far fa-heart"></i></a>
+                        {% endif %}
+                    </div>
                     <p class="mb-0">{{ product.name }}</p>
                     <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
                     {% if product.category %}

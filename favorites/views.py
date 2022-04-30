@@ -27,8 +27,6 @@ def view_product_favorites(request):
     else:
         favorites_items = all_favorites.products.all()
         favorites_items_count = all_favorites.products.all().count()
-        favorites_items = setup_pagination(favorites_items, request, 4)
-
     if not favorites_items:
         messages.info(request, 'Your favorites list is empty!')
 
