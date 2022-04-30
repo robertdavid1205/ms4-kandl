@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% load static %}
 
+<!-- code adapted from pmeeny Paul Meeneghan -->
 {% block extra_css %}
     
 {% endblock %}
@@ -22,10 +23,67 @@
             <p class="font-black-bg">Here are your favorites saved</p>
         </div>
     </div>
+    <div class="row">
+        <div>
+            <div class="row">
+                {% for favourite in favorites_items %}
+                        <!-- List of favorites -->
+                        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+                                <div class="card" style="width: 18rem;">
+                                    {% if favorite.image %}
+                                        <a href="{% url 'product_detail' favorite.id %}">
+                                            <img src="{{ favorite.image.url }}" class="card-img-top" alt="{{ favorite.name }}">
+                                        </a>
+                                    {% else %}
+                                        <a href="{% url 'product_detail' favorite.id %}">
+                                            <img src="{{ MEDIA_URL }}noimage.png" class="card-img-top" alt="not available">
+                                        </a>
+                                    {% endif %}
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h2 class="card-title font-black">{{ favorite.name }}</h2>
+                                            </div>
+                                            <div class="col-12">
+                                                <h3 class="font-weight-light font-black">{{ favorite.category.friendly_name }}</h3>
+                                            </div>
+                                            <div class="col-6 align-self-center font-black">
+                                                <strong>€{{ favorite.price }}</strong>
+                                            </div>
+                                      </div>
+                                        <div class="center-div pt-3">
+                                            <a class="btn black-btn" data-bs-toggle="modal" data-bs-target="#deleteFavorite{{ favorite.id }}">Delete</a>
+                                            <!-- Delete favorite modal -->
+                                            <div class="modal fade" id="deleteFavorite{{ favorite.id }}" tabindex="-1"  aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h2 class="modal-title font-black">Delete Favorite</h2>
+                                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body font-black">
+                                                            Are you sure you want to delete this favorite?
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <!-- Close and delete favorite buttons-->
+                                                            <button type="button" class="btn black-btn" data-bs-dismiss="modal">Close</button>
+                                                            <a href="{% url 'remove_product_from_favorites' favorite.id 'favorites' %}" class="btn red-btn">Delete</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    {% endfor %}
+            </div>
+        </div>
+    </div>
 </div>
 {% endblock %}
 
 {% block postloadjs %}
     {{ block.super }}
-    
+    <script src="{% static 'favorites/js/favorites.js' %}"></script>
 {% endblock %}
