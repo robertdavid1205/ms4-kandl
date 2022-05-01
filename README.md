@@ -1459,3 +1459,4 @@ To deploy this application to Heroku, run the following steps.
 
 # Acknowledgements
 - I would like to thank to all the tutors who helped me with the problems I had during the process, and my mentor Mo Shami for his input, help and feedback.
+- Mentions to pmeeny Paul Meeneghan and Carla Buongiorno.
