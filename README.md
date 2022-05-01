@@ -65,6 +65,9 @@ Kandl is an ecommerce website that allows users to purchase hand made natural ca
     + [Feature 9 Admin](#feature-9-admin)
       - [Description feature 9](#description-feature-9)
       - [User Stories feature 9](#user-stories-feature-9)
+    + [Feature 10 Favorites](#feature-10-favorites)
+      - [Description feature 10](#description-feature-10)
+      - [User Stories feature ](#user-stories-feature-10)
   * [Features Left to Implement](#features-left-to-implement)
 - [Technologies Used](#technologies-used)
   * [Languages](#languages)
@@ -453,8 +456,8 @@ Checkout success |&#9989;        |&#9989;          |&#9989; |
 <br>![User profile](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/order_available.png)
 - A regular user not logged in, I can add items to the bag and make a purchase
 
-### Feature 13 Admin
-#### Description feature 13
+### Feature 9 Admin
+#### Description feature 9
 - As per the user stories below there are a number of admin views that have been configured at https://kandl-ms4.herokuapp.com/admin
 - They give excellent CRUD operations to the data in the Postgres database as well as search and filter options
 - They are as follows:
@@ -466,6 +469,22 @@ Checkout success |&#9989;        |&#9989;          |&#9989; |
 <br>![Users](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/admin_users.png)
 - Categories
 <br>![Categories](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/admin_categories.png)
+
+### Feature 10 Favorites
+#### Description feature 10
+- A regular user can add their most loved products to favorites
+- A user must be logged in to add the product to favorites
+- Add to favorites 
+<br>![Add to favorites]()
+- Favorites
+<br>![Favorites]()
+
+### Feature 11 Contact
+#### Description feature 11
+- A regular user can contact us for any issue or question
+- A user can click on the contact icon, fill the required details, and send us a message.
+- Contact 
+<br>![Contact]()
 
 
 ##  Features Left to Implement
