@@ -475,16 +475,16 @@ Checkout success |&#9989;        |&#9989;          |&#9989; |
 - A regular user can add their most loved products to favorites
 - A user must be logged in to add the product to favorites
 - Add to favorites 
-<br>![Add to favorites]()
+<br>![Add to favorites](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/add_to_favorites.png)
 - Favorites
-<br>![Favorites]()
+<br>![Favorites](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/favorite.png)
 
 ### Feature 11 Contact
 #### Description feature 11
 - A regular user can contact us for any issue or question
 - A user can click on the contact icon, fill the required details, and send us a message.
 - Contact 
-<br>![Contact]()
+<br>![Contact](https://github.com/robertdavid1205/ms4-kandl/blob/main/readme-images/features/contact.png)
 
 
 ##  Features Left to Implement
