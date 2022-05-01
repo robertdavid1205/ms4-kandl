@@ -29,6 +29,8 @@ Kandl is an ecommerce website that allows users to purchase hand made natural ca
         * [OrderLineItem Model](#orderlineitem-model)
         * [Product Model](#product-model)
         * [Category Model](#category-model)
+        * [Favorites Model](#favorites-model)
+        * [Contact Model](#contact-model)
   * [Scope](#scope)
     + [User Stories Potential or Existing Customer](#user-stories-potential-or-existing-customer)
     + [User Stories Website Owner](#user-stories-website-owner)
@@ -201,6 +203,14 @@ Note: Environment variable values are not exposed in the source code, they are s
 - The Category model contains a product category
 - The model contains the following fields: name, friendly_name
 
+##### Favorites Model
+- The Favorites model contains the option to add a item to your favorites
+- The model contains the following fields: favorites
+
+##### Contact Model
+- The Contact model contains the information to be able to dens a feedback message
+- The model contains the following fields: contactForm
+
 
 ## Scope
 ### User Stories Customer
@@ -243,6 +253,8 @@ The user stories for the regular user eg: "shopper user" (a potential or existin
 - User Story 10.8: As a regular user on the checkout page if I click the Complete Order button, and the transaction is not successful, a message will be displayed
 - User Story 10.9: As a regular user on the checkout page if I click the Complete Order button, and the transaction is successful, the user will be navigated to a checkout success page, and an email is sent to the user
 - User Story 10.10: As a regular user not logged in, I can add items to my bag and make a purchase
+- User Story 11.1: As a logged in user, I can add items to my favorites
+- User Story 12.1: As a regular user I can contact the store by filling in the details from the form on the contact page and sending a message.
 
 ### User Stories Website Owner
 The user stories for the website owner(admin/administrator user) are described as follows: 
@@ -1251,6 +1263,42 @@ Results here: [Lighthouse](https://github.com/robertdavid1205/ms4-kandl/blob/mai
   </table> 
  
 &nbsp;[Screenshot](/readme-images/testing_user_stories/user35.png)
+
+36. As a logged in user, I can add items to my favorites
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Favorites</td>
+            <td>click on the little red heart fomr the product detail page to ad to your favorites</td>
+            <td> to add items to my favorites</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/add_to_favorites.png)
+
+37. As a regular user I can contact the store by filling in the details from the form on the contact page and sending a message.
+  <table>
+        <tr>
+            <th>Feature</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Actual Result</th>
+        </tr>
+        <tr>
+            <td>Contact</td>
+            <td>fill in the required details and you message in the form in the contact page, and then click send</td>
+            <td> to send feedback or a message to the owners</td>
+            <td>Works as expected</td>
+        </tr>
+  </table> 
+ 
+&nbsp;[Screenshot](/readme-images/features/contact.png)
 
 
 #### Browser compatibility
