@@ -1,6 +1,7 @@
 from django import forms
 
 # credit code adapted from CarlaBuongiorno
+
 class ContactForm(forms.Form):
     """
     Form to collect contact form details

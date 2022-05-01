@@ -10,6 +10,7 @@ from .models import Favorites
 # Create your views here.
 # code adapted from pmeeny Paul Meeneghan
 
+
 @login_required
 def view_product_favorites(request):
     """
