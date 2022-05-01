@@ -358,6 +358,9 @@ input[name='q']::placeholder {
 	color: #17a2b8; /* text-info */
 }
 
+.favs {
+    margin-top: 2rem; !important
+}
 
 /* Product Form */
 

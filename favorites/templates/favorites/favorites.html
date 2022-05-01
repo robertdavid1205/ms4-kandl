@@ -19,7 +19,7 @@
 <div class="container-fluid px-3 favorites-page">
     <div class="row">
         <div class="col-12 col-sm-6 p-4 my-auto">
-            <h1 class="font-black-bg">Favorites ({{ favorites_items_count }})</h1>
+            <h1 class="font-black-bg favs">Favorites ({{ favorites_items_count }})</h1>
             <p class="font-black-bg">Here are your favorites saved</p>
         </div>
     </div>
@@ -27,18 +27,20 @@
         <div>
             <div class="row">
                 {% for favourite in favorites_items %}
+
                         <!-- List of favorites -->
                         <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
-                                <div class="card" style="width: 18rem;">
+                                <div class="card" style="width: 18rem;">               
                                     {% if favorite.image %}
-                                        <a href="{% url 'product_detail' favorite.id %}">
+                                        <a href="{% url 'product_detail' favourite.id %}">
                                             <img src="{{ favorite.image.url }}" class="card-img-top" alt="{{ favorite.name }}">
                                         </a>
                                     {% else %}
-                                        <a href="{% url 'product_detail' favorite.id %}">
+                                        <a href="{% url 'product_detail' favourite.id %}">
                                             <img src="{{ MEDIA_URL }}noimage.png" class="card-img-top" alt="not available">
                                         </a>
                                     {% endif %}
+                                   
                                     <div class="card-body">
                                         <div class="row">
                                             <div class="col-12">
@@ -52,9 +54,9 @@
                                             </div>
                                       </div>
                                         <div class="center-div pt-3">
-                                            <a class="btn black-btn" data-bs-toggle="modal" data-bs-target="#deleteFavorite{{ favorite.id }}">Delete</a>
+                                            <a class="btn black-btn" data-bs-toggle="modal" data-bs-target="#deleteFavorite{{ favourite.id }}">Delete</a>
                                             <!-- Delete favorite modal -->
-                                            <div class="modal fade" id="deleteFavorite{{ favorite.id }}" tabindex="-1"  aria-hidden="true">
+                                            <div class="modal fade" id="deleteFavorite{{ favourite.id }}" tabindex="-1"  aria-hidden="true">
                                                 <div class="modal-dialog">
                                                     <div class="modal-content">
                                                         <div class="modal-header">
@@ -67,7 +69,7 @@
                                                         <div class="modal-footer">
                                                             <!-- Close and delete favorite buttons-->
                                                             <button type="button" class="btn black-btn" data-bs-dismiss="modal">Close</button>
-                                                            <a href="{% url 'remove_product_from_favorites' favorite.id 'favorites' %}" class="btn red-btn">Delete</a>
+                                                            <a href="{% url 'remove_product_from_favorites' favourite.id 'favorites' %}" class="btn red-btn">Delete</a>
                                                         </div>
                                                     </div>
                                                 </div>
