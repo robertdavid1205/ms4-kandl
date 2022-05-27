@@ -1,7 +1,5 @@
 from django.shortcuts import render, redirect, reverse
 from django.contrib import messages
-from django.core.mail import send_mail
-from django.conf import settings
 from .forms import ContactForm
 
 
@@ -13,18 +11,7 @@ def contact(request):
         form = ContactForm(request.POST)
 
         if form.is_valid():
-            # process the data in form.cleaned_data as required
-            name = form.cleaned_data['name']
-            email = form.cleaned_data['email']
-            subject = form.cleaned_data['subject']
-            message = form.cleaned_data['message']
-
-            send_mail(
-                f'Message from {name}, {email} about {subject}',
-                message,
-                settings.EMAIL_HOST_USER,
-                [settings.EMAIL_HOST_USER]
-            )
+            form.save()
             messages.success(
                 request, 'Your message has been sent!')
             # redirect to contact page
