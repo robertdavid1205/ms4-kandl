@@ -40,18 +40,7 @@
             </div>
         </li>
         <li class="nav-item dropdown">
-            <a class="{% if favorites_count %}text-primary font-weight-bold{% else %}logo-font text-black font-weight-bold nav-link text-white{% endif %}" href="{% url 'view_product_favorites' %}">
-                <div class="text-center">
-                    <p class="my-0">Favs</p>
-                    <p class="my-0 d-none d-lg-block">
-                        {% if favorites_count %}
-                            ({{ favorites_count }})
-                        {% else %}
-                            (0)
-                        {% endif %}
-                    </p>
-                </div>
-            </a>
+            <a class="logo-font text-black font-weight-bold nav-link text-white" href="{% url 'view_product_favorites' %}">Favs</a>
         </li>
         <li class="nav-item">
             <a class="logo-font text-black font-weight-bold nav-link text-white" href="{% url 'contact' %}" id="contact-link">
