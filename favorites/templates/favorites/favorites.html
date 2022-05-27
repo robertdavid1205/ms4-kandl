@@ -26,17 +26,17 @@
     <div class="row">
         <div>
             <div class="row">
-                {% for favourite in favorites_items %}
+                {% for favorite in favorites_items %}
 
                         <!-- List of favorites -->
                         <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
                                 <div class="card" style="width: 18rem;">               
                                     {% if favorite.image %}
-                                        <a href="{% url 'product_detail' favourite.id %}">
+                                        <a href="{% url 'product_detail' favorite.id %}">
                                             <img src="{{ favorite.image.url }}" class="card-img-top" alt="{{ favorite.name }}">
                                         </a>
                                     {% else %}
-                                        <a href="{% url 'product_detail' favourite.id %}">
+                                        <a href="{% url 'product_detail' favorite.id %}">
                                             <img src="{{ MEDIA_URL }}noimage.png" class="card-img-top" alt="not available">
                                         </a>
                                     {% endif %}
@@ -54,22 +54,27 @@
                                             </div>
                                       </div>
                                         <div class="center-div pt-3">
-                                            <a class="btn black-btn" data-bs-toggle="modal" data-bs-target="#deleteFavorite{{ favourite.id }}">Delete</a>
+                                            <a class="btn black-btn" data-toggle="modal" data-target="#deleteFavorite{{ favorite.id }}">Delete</a>
                                             <!-- Delete favorite modal -->
-                                            <div class="modal fade" id="deleteFavorite{{ favourite.id }}" tabindex="-1"  aria-hidden="true">
-                                                <div class="modal-dialog">
+                                            <div class="modal fade" id="deleteFavorite{{ favorite.id }}" tabindex="-1" role="dialog"
+                                                aria-labelledby="deleteFavorite{{ favorite.id }}Label" aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
                                                     <div class="modal-content">
                                                         <div class="modal-header">
-                                                            <h2 class="modal-title font-black">Delete Favorite</h2>
-                                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            <h5 class="modal-title" id="deleteFavorite{{ favorite.id }}Label">Delete Favorite
+                                                            </h5>
+                                                            <button type="button" class="close" data-dismiss="modal"
+                                                                aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
                                                         </div>
-                                                        <div class="modal-body font-black">
+                                                        <div class="modal-body">
                                                             Are you sure you want to delete this favorite?
                                                         </div>
                                                         <div class="modal-footer">
-                                                            <!-- Close and delete favorite buttons-->
-                                                            <button type="button" class="btn black-btn" data-bs-dismiss="modal">Close</button>
-                                                            <a href="{% url 'remove_product_from_favorites' favourite.id 'favorites' %}" class="btn red-btn">Delete</a>
+                                                            <button type="button" class="btn black-btn"
+                                                                data-dismiss="modal">Close</button>
+                                                            <a href="{% url 'remove_product_from_favorites' favorite.id 'favorites' %}" class="btn red-btn">Delete</a>
                                                         </div>
                                                     </div>
                                                 </div>
